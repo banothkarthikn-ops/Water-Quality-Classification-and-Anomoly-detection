@@ -1,0 +1,34 @@
+{
+    "model_name": "RandomForestClassifier",
+    "features": [
+        "pH",
+        "DO",
+        "BOD",
+        "Cond",
+        "Nitrate",
+        "COD",
+        "TotalColi",
+        "FecalColi",
+        "Turbidity",
+        "TotAlk",
+        "Chloride",
+        "Sulphate",
+        "Hardness",
+        "TDS",
+        "TSS",
+        "Fluoride"
+    ],
+    "classes": [
+        "Excellent",
+        "Good",
+        "Poor",
+        "Unfit",
+        "Very_poor"
+    ],
+    "n_estimators": 300,
+    "random_state": 42,
+    "accuracy": 0.9078947368421053,
+    "balanced_accuracy": 0.6509331937903367,
+    "macro_f1": 0.6660050711181578,
+    "weighted_f1": 0.9048618411833557
+}

@@ -1,0 +1,381 @@
+station_id,station_name,source_type,year,wqi_class,review_group,extreme_flag,suspect_record,suggested_split
+45,Bibinagar Tank,lake_reservoir,2011,Poor,normal,0,0,train
+58,"Borewell at Bodhan, Sriramnagar colony, Shakkarnagar, NZB",groundwater,2011,Poor,normal,0,0,train
+71,Borewell at Nagari,groundwater,2011,Poor,normal,0,0,train
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2011,Good,suspect_error,0,1,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2011,Good,normal,0,0,train
+113,D/s of River Godavari at Rajahmundry (Dhavaleswaram),river,2011,Excellent,normal,0,0,train
+136,Hussainsagar lake,lake_reservoir,2011,Very_poor,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2011,Very_poor,extreme_valid,1,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2011,Good,normal,0,0,train
+153,"Kondakarla-Ava Lake, Kondakarla",lake_reservoir,2011,Good,extreme_valid,1,0,train
+197,"Munneru before confluence with river Krishna at Nandigama (BM-Jan, Apr & Oct)",river,2011,Good,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2011,Very_poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2011,Very_poor,normal,0,0,train
+263,River Godavari at Polavaram,river,2011,Excellent,normal,0,0,train
+274,"River Krishna at Amaravathi (BM-Jan, Apr & Oct)",river,2011,Good,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2011,Poor,normal,0,0,train
+303,"River Paleru at Jaggaiahpet (before confluence with Krishna) (BM-Jan, Apr & Oct)",river,2011,Good,normal,0,0,train
+307,River Pennar at Unganoor (River Pennar before confluence with Chitravathi at Tadipatri),river,2011,Good,normal,0,0,train
+316,Samarla kota canal,canal_drain,2011,Excellent,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2011,Very_poor,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2012,Poor,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2012,Good,normal,0,0,train
+136,Hussainsagar lake,lake_reservoir,2012,Very_poor,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2012,Very_poor,extreme_valid,1,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2012,Excellent,normal,0,0,train
+197,"Munneru before confluence with river Krishna at Nandigama (BM-Jan, Apr & Oct)",river,2012,Good,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2012,Very_poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2012,Very_poor,extreme_valid,1,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2012,Very_poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2012,Poor,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2012,Very_poor,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2012,Good,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2012,Very_poor,normal,0,0,train
+17,B/w at Peddavoora,groundwater,2013,Good,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2013,Good,normal,0,0,train
+47,"Bore well at Alladapalem village, Pydibhimavaram",groundwater,2013,Good,normal,0,0,train
+48,Bore well at Arinama Akkivalasa,groundwater,2013,Good,normal,0,0,train
+58,"Borewell at Bodhan, Sriramnagar colony, Shakkarnagar, NZB",groundwater,2013,Good,normal,0,0,train
+67,Borewell at Manakondur,groundwater,2013,Poor,normal,0,0,train
+71,Borewell at Nagari,groundwater,2013,Excellent,normal,0,0,train
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2013,Good,normal,0,0,train
+77,Borewell at Vijayawada,groundwater,2013,Excellent,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2013,Good,normal,0,0,train
+113,D/s of River Godavari at Rajahmundry (Dhavaleswaram),river,2013,Good,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2013,Poor,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2013,Good,normal,0,0,train
+153,"Kondakarla-Ava Lake, Kondakarla",lake_reservoir,2013,Good,normal,0,0,train
+197,"Munneru before confluence with river Krishna at Nandigama (BM-Jan, Apr & Oct)",river,2013,Poor,extreme_valid,1,0,train
+235,Pedda cheruvu,lake_reservoir,2013,Poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2013,Poor,normal,0,0,train
+263,River Godavari at Polavaram,river,2013,Excellent,extreme_valid,1,0,train
+274,"River Krishna at Amaravathi (BM-Jan, Apr & Oct)",river,2013,Good,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2013,Good,normal,0,0,train
+303,"River Paleru at Jaggaiahpet (before confluence with Krishna) (BM-Jan, Apr & Oct)",river,2013,Good,normal,0,0,train
+307,River Pennar at Unganoor (River Pennar before confluence with Chitravathi at Tadipatri),river,2013,Poor,normal,0,0,train
+316,Samarla kota canal,canal_drain,2013,Excellent,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2013,Very_poor,extreme_valid,1,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2013,Good,normal,0,0,train
+17,B/w at Peddavoora,groundwater,2014,Good,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2014,Poor,normal,0,0,train
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2014,Good,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2014,Poor,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2014,Very_poor,extreme_valid,1,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2014,Good,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2014,Poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2014,Poor,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2014,Very_poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2014,Good,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2014,Very_poor,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2014,Good,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2014,Poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2014,Good,normal,0,0,train
+17,B/w at Peddavoora,groundwater,2015,Good,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2015,Poor,normal,0,0,train
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2015,Good,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2015,Good,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2015,Very_poor,extreme_valid,1,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2015,Poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2015,Poor,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2015,Poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2015,Good,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2015,Poor,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2015,Good,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2015,Very_poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2015,Good,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2016,Poor,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2016,Good,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2016,Poor,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2016,Poor,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2016,Very_poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2016,Very_poor,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2016,Very_poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2016,Good,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2016,Poor,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2016,Poor,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2016,Very_poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2016,Poor,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2017,Very_poor,extreme_valid,1,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2017,Good,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2017,Poor,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2017,Poor,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2017,Very_poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2017,Very_poor,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2017,Very_poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2017,Good,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2017,Very_poor,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2017,Poor,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2017,Very_poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2017,Poor,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2018,Poor,normal,0,0,train
+67,Borewell at Manakondur,groundwater,2018,Poor,normal,0,0,train
+79,Borewell IDA Kattedan,groundwater,2018,Poor,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2018,Good,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2018,Poor,normal,0,0,train
+149,Kistaipally Cheruvu,lake_reservoir,2018,Poor,normal,0,0,train
+151,"Komati Cheruvu,",lake_reservoir,2018,Poor,normal,0,0,train
+200,"Muthangi Tank,",lake_reservoir,2018,Poor,normal,0,0,train
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2018,Good,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2018,Very_poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2018,Very_poor,normal,0,0,train
+243,"Pochara Water Falls, Adilabad",river,2018,Good,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2018,Poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2018,Poor,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2018,Poor,normal,0,0,train
+253,"Rangasamudram, Warangal",lake_reservoir,2018,Poor,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2018,Poor,normal,0,0,train
+290,River Manjeera at Yedu Payala Temple,river,2018,Unfit,extreme_valid,1,0,train
+317,Saroornagar Lake,lake_reservoir,2018,Very_poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2018,Poor,normal,0,0,train
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2019,Very_poor,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2019,Poor,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2019,Good,normal,0,0,train
+134,HUDA Park Lake,lake_reservoir,2019,Poor,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2019,Good,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2019,Good,normal,0,0,train
+149,Kistaipally Cheruvu,lake_reservoir,2019,Poor,normal,0,0,train
+151,"Komati Cheruvu,",lake_reservoir,2019,Good,normal,0,0,train
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2019,Very_poor,normal,0,0,train
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2019,Poor,normal,0,0,train
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2019,Poor,normal,0,0,train
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2019,Good,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2019,Poor,normal,0,0,train
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2019,Very_poor,normal,0,0,train
+243,"Pochara Water Falls, Adilabad",river,2019,Good,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2019,Poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2019,Excellent,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2019,Poor,normal,0,0,train
+253,"Rangasamudram, Warangal",lake_reservoir,2019,Poor,normal,0,0,train
+269,River godavari Kaleshwaram,river,2019,Good,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2019,Good,normal,0,0,train
+290,River Manjeera at Yedu Payala Temple,river,2019,Good,normal,0,0,train
+295,River Musi at Pillapalli,river,2019,Poor,normal,0,0,train
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2019,Good,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2019,Poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2019,Good,normal,0,0,train
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2020,Poor,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2020,Good,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2020,Good,normal,0,0,train
+134,HUDA Park Lake,lake_reservoir,2020,Poor,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2020,Good,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2020,Poor,normal,0,0,train
+149,Kistaipally Cheruvu,lake_reservoir,2020,Good,normal,0,0,train
+151,"Komati Cheruvu,",lake_reservoir,2020,Good,normal,0,0,train
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2020,Poor,normal,0,0,train
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2020,Poor,normal,0,0,train
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2020,Poor,normal,0,0,train
+200,"Muthangi Tank,",lake_reservoir,2020,Poor,suspect_error,1,1,train
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2020,Good,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2020,Poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2020,Poor,normal,0,0,train
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2020,Poor,normal,0,0,train
+243,"Pochara Water Falls, Adilabad",river,2020,Excellent,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2020,Poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2020,Good,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2020,Poor,normal,0,0,train
+253,"Rangasamudram, Warangal",lake_reservoir,2020,Poor,normal,0,0,train
+269,River godavari Kaleshwaram,river,2020,Excellent,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2020,Good,normal,0,0,train
+290,River Manjeera at Yedu Payala Temple,river,2020,Good,normal,0,0,train
+295,River Musi at Pillapalli,river,2020,Poor,normal,0,0,train
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2020,Good,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2020,Poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2020,Good,normal,0,0,train
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2021,Poor,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2021,Good,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2021,Good,normal,0,0,train
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2021,Poor,normal,0,0,train
+134,HUDA Park Lake,lake_reservoir,2021,Poor,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2021,Poor,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2021,Good,normal,0,0,train
+149,Kistaipally Cheruvu,lake_reservoir,2021,Poor,normal,0,0,train
+151,"Komati Cheruvu,",lake_reservoir,2021,Good,normal,0,0,train
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2021,Good,normal,0,0,train
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2021,Poor,normal,0,0,train
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2021,Poor,normal,0,0,train
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2021,Good,normal,0,0,train
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2021,Poor,normal,0,0,train
+189,"Mohini Cheruvu, Ramanthapur (V), Uppal(M), Medchal-Malkajgiri (D)",lake_reservoir,2021,Poor,normal,0,0,train
+200,"Muthangi Tank,",lake_reservoir,2021,Good,normal,0,0,train
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2021,Good,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2021,Poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2021,Poor,normal,0,0,train
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2021,Poor,normal,0,0,train
+243,"Pochara Water Falls, Adilabad",river,2021,Excellent,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2021,Poor,normal,0,0,train
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2021,Good,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2021,Good,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2021,Poor,normal,0,0,train
+253,"Rangasamudram, Warangal",lake_reservoir,2021,Good,normal,0,0,train
+269,River godavari Kaleshwaram,river,2021,Good,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2021,Good,normal,0,0,train
+290,River Manjeera at Yedu Payala Temple,river,2021,Good,normal,0,0,train
+295,River Musi at Pillapalli,river,2021,Poor,normal,0,0,train
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2021,Good,normal,0,0,train
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2021,Poor,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2021,Poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2021,Good,normal,0,0,train
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2021,Poor,normal,0,0,train
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2022,Poor,normal,0,0,train
+45,Bibinagar Tank,lake_reservoir,2022,Good,normal,0,0,train
+67,Borewell at Manakondur,groundwater,2022,Good,normal,0,0,train
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2022,Good,normal,0,0,train
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2022,Poor,normal,0,0,train
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train
+134,HUDA Park Lake,lake_reservoir,2022,Poor,normal,0,0,train
+147,Khazipally Tank,lake_reservoir,2022,Poor,normal,0,0,train
+148,Kinnerasani after confluence of KTPS ash pond effluents,river,2022,Good,normal,0,0,train
+149,Kistaipally Cheruvu,lake_reservoir,2022,Poor,normal,0,0,train
+151,"Komati Cheruvu,",lake_reservoir,2022,Good,normal,0,0,train
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2022,Poor,normal,0,0,train
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2022,Poor,normal,0,0,train
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2022,Poor,normal,0,0,train
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2022,Good,normal,0,0,train
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2022,Good,normal,0,0,train
+189,"Mohini Cheruvu, Ramanthapur (V), Uppal(M), Medchal-Malkajgiri (D)",lake_reservoir,2022,Poor,normal,0,0,train
+200,"Muthangi Tank,",lake_reservoir,2022,Good,normal,0,0,train
+203,Nagarjuna Sagar Dam Spill way,river,2022,Good,normal,0,0,train
+207,Nalla cheruvu,lake_reservoir,2022,Poor,normal,0,0,train
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train
+235,Pedda cheruvu,lake_reservoir,2022,Poor,normal,0,0,train
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2022,Poor,normal,0,0,train
+243,"Pochara Water Falls, Adilabad",river,2022,Excellent,normal,0,0,train
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2022,Poor,normal,0,0,train
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2022,Poor,normal,0,0,train
+251,Ramappa lake,lake_reservoir,2022,Good,normal,0,0,train
+252,Rangadhamuni cheruvu,lake_reservoir,2022,Poor,normal,0,0,train
+253,"Rangasamudram, Warangal",lake_reservoir,2022,Good,normal,0,0,train
+269,River godavari Kaleshwaram,river,2022,Good,normal,0,0,train
+283,River Krishna at Wadapally after confluence with River Musi,river,2022,Good,normal,0,0,train
+290,River Manjeera at Yedu Payala Temple,river,2022,Good,normal,0,0,train
+291,River Musi at Bheemaram Bridge,river,2022,Good,normal,0,0,train
+295,River Musi at Pillapalli,river,2022,Poor,normal,0,0,train
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2022,Good,normal,0,0,train
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2022,Poor,normal,0,0,train
+317,Saroornagar Lake,lake_reservoir,2022,Poor,normal,0,0,train
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2022,Good,normal,0,0,train
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2022,Poor,normal,0,0,train
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2023,Poor,normal,0,0,val
+45,Bibinagar Tank,lake_reservoir,2023,Good,normal,0,0,val
+67,Borewell at Manakondur,groundwater,2023,Good,normal,0,0,val
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2023,Good,normal,0,0,val
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2023,Poor,normal,0,0,val
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val
+134,HUDA Park Lake,lake_reservoir,2023,Poor,normal,0,0,val
+147,Khazipally Tank,lake_reservoir,2023,Good,normal,0,0,val
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2023,Good,normal,0,0,val
+149,Kistaipally Cheruvu,lake_reservoir,2023,Poor,normal,0,0,val
+151,"Komati Cheruvu,",lake_reservoir,2023,Good,normal,0,0,val
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2023,Poor,normal,0,0,val
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2023,Poor,normal,0,0,val
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2023,Poor,normal,0,0,val
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2023,Poor,normal,0,0,val
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2023,Good,normal,0,0,val
+189,"Mohini Cheruvu, Ramanthapur (V), Uppal(M), Medchal-Malkajgiri (D)",lake_reservoir,2023,Poor,normal,0,0,val
+200,"Muthangi Tank,",lake_reservoir,2023,Good,normal,0,0,val
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2023,Good,normal,0,0,val
+207,Nalla cheruvu,lake_reservoir,2023,Poor,normal,0,0,val
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val
+235,Pedda cheruvu,lake_reservoir,2023,Poor,normal,0,0,val
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2023,Poor,normal,0,0,val
+243,"Pochara Water Falls, Adilabad",river,2023,Good,normal,0,0,val
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2023,Poor,normal,0,0,val
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2023,Poor,normal,0,0,val
+251,Ramappa lake,lake_reservoir,2023,Good,normal,0,0,val
+252,Rangadhamuni cheruvu,lake_reservoir,2023,Poor,normal,0,0,val
+253,"Rangasamudram, Warangal",lake_reservoir,2023,Poor,normal,0,0,val
+269,River godavari Kaleshwaram,river,2023,Good,normal,0,0,val
+283,River Krishna at Wadapally after confluence with River Musi,river,2023,Good,normal,0,0,val
+290,River Manjeera at Yedu Payala Temple,river,2023,Good,normal,0,0,val
+291,River Musi at Bheemaram Bridge,river,2023,Good,normal,0,0,val
+295,River Musi at Pillapalli,river,2023,Poor,normal,0,0,val
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2023,Good,normal,0,0,val
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2023,Poor,normal,0,0,val
+317,Saroornagar Lake,lake_reservoir,2023,Very_poor,normal,0,0,val
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2023,Good,normal,0,0,val
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2023,Poor,normal,0,0,val
+3,"A Borewell sample collected Near water tank at Rajiv Gruha Kalpa, Ahmedguda, Ambedkar Nagar, Kapra",groundwater,2024,Good,normal,0,0,test
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2024,Poor,normal,0,0,test
+45,Bibinagar Tank,lake_reservoir,2024,Good,normal,0,0,test
+95,"Borewell sample collected from Residence of Sri Anjaneyulu, Plot No.25 (Hanuman Engineering), Shakthipuram, Prashanth Nagar, I.E., Kukatpally, Medchal-Malkajgiri Dist",groundwater,2024,Poor,normal,0,0,test
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2024,Good,normal,0,0,test
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2024,Poor,normal,0,0,test
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2024,Very_poor,normal,0,0,test
+134,HUDA Park Lake,lake_reservoir,2024,Poor,normal,0,0,test
+147,Khazipally Tank,lake_reservoir,2024,Good,normal,0,0,test
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2024,Good,normal,0,0,test
+149,Kistaipally Cheruvu,lake_reservoir,2024,Poor,normal,0,0,test
+151,"Komati Cheruvu,",lake_reservoir,2024,Good,normal,0,0,test
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2024,Poor,normal,0,0,test
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2024,Poor,normal,0,0,test
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2024,Poor,normal,0,0,test
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2024,Poor,normal,0,0,test
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2024,Poor,normal,0,0,test
+200,"Muthangi Tank,",lake_reservoir,2024,Poor,normal,0,0,test
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2024,Good,normal,0,0,test
+207,Nalla cheruvu,lake_reservoir,2024,Poor,normal,0,0,test
+214,"Open Well at Govt Ashram School, Tadvai",groundwater,2024,Good,normal,0,0,test
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2024,Poor,normal,0,0,test
+235,Pedda cheruvu,lake_reservoir,2024,Poor,normal,0,0,test
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2024,Poor,normal,0,0,test
+243,"Pochara Water Falls, Adilabad",river,2024,Good,normal,0,0,test
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2024,Poor,normal,0,0,test
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2024,Poor,normal,0,0,test
+251,Ramappa lake,lake_reservoir,2024,Good,normal,0,0,test
+252,Rangadhamuni cheruvu,lake_reservoir,2024,Poor,normal,0,0,test
+253,"Rangasamudram, Warangal",lake_reservoir,2024,Poor,normal,0,0,test
+269,River godavari Kaleshwaram,river,2024,Good,normal,0,0,test
+283,River Krishna at Wadapally after confluence with River Musi,river,2024,Good,normal,0,0,test
+290,River Manjeera at Yedu Payala Temple,river,2024,Good,normal,0,0,test
+291,River Musi at Bheemaram Bridge,river,2024,Good,normal,0,0,test
+295,River Musi at Pillapalli,river,2024,Poor,normal,0,0,test
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2024,Good,normal,0,0,test
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2024,Poor,normal,0,0,test
+317,Saroornagar Lake,lake_reservoir,2024,Poor,normal,0,0,test
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2024,Poor,normal,0,0,test
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2024,Good,normal,0,0,test
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2024,Poor,normal,0,0,test
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2025,Poor,normal,0,0,test
+45,Bibinagar Tank,lake_reservoir,2025,Good,normal,0,0,test
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2025,Excellent,normal,0,0,test
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2025,Poor,normal,0,0,test
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test
+134,HUDA Park Lake,lake_reservoir,2025,Poor,normal,0,0,test
+147,Khazipally Tank,lake_reservoir,2025,Good,normal,0,0,test
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2025,Good,normal,0,0,test
+149,Kistaipally Cheruvu,lake_reservoir,2025,Poor,normal,0,0,test
+151,"Komati Cheruvu,",lake_reservoir,2025,Good,normal,0,0,test
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2025,Poor,normal,0,0,test
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2025,Poor,normal,0,0,test
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2025,Poor,normal,0,0,test
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2025,Poor,normal,0,0,test
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2025,Good,normal,0,0,test
+200,"Muthangi Tank,",lake_reservoir,2025,Good,normal,0,0,test
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2025,Good,normal,0,0,test
+207,Nalla cheruvu,lake_reservoir,2025,Poor,normal,0,0,test
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test
+235,Pedda cheruvu,lake_reservoir,2025,Poor,normal,0,0,test
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2025,Poor,normal,0,0,test
+243,"Pochara Water Falls, Adilabad",other,2025,Good,normal,0,0,test
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2025,Poor,normal,0,0,test
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2025,Poor,normal,0,0,test
+251,Ramappa lake,lake_reservoir,2025,Good,normal,0,0,test
+252,Rangadhamuni cheruvu,lake_reservoir,2025,Poor,normal,0,0,test
+253,"Rangasamudram, Warangal",lake_reservoir,2025,Poor,normal,0,0,test
+269,River godavari Kaleshwaram,river,2025,Good,normal,0,0,test
+283,River Krishna at Wadapally after confluence with River Musi,river,2025,Good,normal,0,0,test
+290,River Manjeera at Yedu Payala Temple,river,2025,Good,normal,0,0,test
+291,River Musi at Bheemaram Bridge,river,2025,Good,normal,0,0,test
+295,River Musi at Pillapalli,river,2025,Poor,normal,0,0,test
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2025,Good,normal,0,0,test
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2025,Poor,normal,0,0,test
+317,Saroornagar Lake,lake_reservoir,2025,Poor,normal,0,0,test
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2025,Good,normal,0,0,test
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2025,Poor,normal,0,0,test

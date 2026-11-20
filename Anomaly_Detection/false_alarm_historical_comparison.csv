@@ -1,0 +1,97 @@
+station_id,station_name,flagged_year,parameter,flagged_value,historical_record_count,historical_median,historical_min,historical_max,within_historical_range,difference_from_historical_median
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,pH,7.855,14,8.01,7.5525,8.39,True,-0.15499999999999936
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,DO,6.64,14,5.8424499999999995,5.0462,6.5,False,0.7975500000000002
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,BOD,1.52,14,2.7083500000000003,1.1333,8.0,True,-1.1883500000000002
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,Cond,342.4,14,351.45835,298.4333,470.0,True,-9.058350000000019
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,Nitrate,0.4471,14,0.66645,0.1,2.2333,True,-0.21935
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,COD,44.1,14,16.16665,8.8333,26.85,False,27.93335
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,TotalColi,1085.0,14,66.82724999999999,21.25,500.0,False,1018.17275
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,FecalColi,160.8,14,10.0,0.9,351.4286,True,150.8
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,Turbidity,4.0,14,10.0,5.7667,20.0,False,-6.0
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,TotAlk,133.2857,14,112.625,72.0,150.0,True,20.66069999999999
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,Chloride,26.2857,14,33.65705,23.3333,44.3333,True,-7.37135
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,Sulphate,18.0,14,18.01665,15.5,24.0,True,-0.0166499999999985
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,Hardness,116.5714,14,122.2361,82.75,158.6923,True,-5.664699999999996
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,TDS,198.5,14,220.98485,182.25,262.0,True,-22.484849999999994
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,TSS,263.6667,14,11.4621,4.0,33.5,False,252.2046
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",2011,Fluoride,0.6125,14,0.40454999999999997,0.2592,0.6,False,0.20795000000000008
+235,Pedda cheruvu,2011,pH,7.865,14,7.5821,7.4208,7.831,False,0.2829000000000006
+235,Pedda cheruvu,2011,DO,5.15,14,0.98665,0.3417,2.7083,False,4.16335
+235,Pedda cheruvu,2011,BOD,43.9875,14,21.125,6.8583,197.6,True,22.862499999999997
+235,Pedda cheruvu,2011,Cond,2483.5,14,1489.4166500000001,1212.5833,2392.0,False,994.0833499999999
+235,Pedda cheruvu,2011,Nitrate,12.905,14,6.1228,0.1,14.9,True,6.7822
+235,Pedda cheruvu,2011,COD,201.3333,14,122.875,70.3,194.7,False,78.45830000000001
+235,Pedda cheruvu,2011,TotalColi,1460.0,14,465.36365,236.5833,1600.0,True,994.63635
+235,Pedda cheruvu,2011,FecalColi,806.0,14,50.458349999999996,25.3333,1600.0,True,755.54165
+235,Pedda cheruvu,2011,Turbidity,8.0,14,18.583350000000003,7.7833,24.3333,True,-10.583350000000003
+235,Pedda cheruvu,2011,TotAlk,508.2857,14,357.4,274.4167,478.1667,False,150.88570000000004
+235,Pedda cheruvu,2011,Chloride,431.1429,14,180.075,153.2,371.5833,False,251.0679
+235,Pedda cheruvu,2011,Sulphate,127.2857,14,88.33335,77.2,345.25,True,38.95235000000001
+235,Pedda cheruvu,2011,Hardness,683.5714,14,425.875,311.0,675.0,False,257.69640000000004
+235,Pedda cheruvu,2011,TDS,1493.75,14,923.8666499999999,744.5833,1596.0,True,569.8833500000001
+235,Pedda cheruvu,2011,TSS,42.75,14,24.98335,19.3333,72.0,True,17.76665
+235,Pedda cheruvu,2011,Fluoride,2.248,14,1.0196999999999998,0.7988,1.7217,False,1.2283000000000004
+317,Saroornagar Lake,2011,pH,7.805,14,7.41665,7.2525,7.8,False,0.38835
+317,Saroornagar Lake,2011,DO,4.3667,14,0.77085,0.05,3.3083,False,3.5958499999999995
+317,Saroornagar Lake,2011,BOD,60.75,14,19.23485,8.2,86.0,True,41.51515
+317,Saroornagar Lake,2011,Cond,1542.3,14,1402.25,1176.75,1589.0,True,140.04999999999995
+317,Saroornagar Lake,2011,Nitrate,14.02,14,5.6499500000000005,0.82,17.675,True,8.370049999999999
+317,Saroornagar Lake,2011,COD,211.6667,14,135.29165,98.1667,169.5833,False,76.37504999999999
+317,Saroornagar Lake,2011,TotalColi,1600.0,14,446.7803,132.8,1970.0,True,1153.2197
+317,Saroornagar Lake,2011,FecalColi,1196.0,14,33.05,9.8,253.3333,False,1162.95
+317,Saroornagar Lake,2011,Turbidity,12.0,14,18.17085,14.6,37.9167,False,-6.1708500000000015
+317,Saroornagar Lake,2011,TotAlk,331.0,14,335.4583,263.5,687.4167,True,-4.458300000000008
+317,Saroornagar Lake,2011,Chloride,203.2857,14,175.125,147.25,214.0833,True,28.16069999999999
+317,Saroornagar Lake,2011,Sulphate,92.0,14,88.08335,76.125,136.25,True,3.916650000000004
+317,Saroornagar Lake,2011,Hardness,406.8571,14,371.5,296.0833,509.8333,True,35.3571
+317,Saroornagar Lake,2011,TDS,926.75,14,872.66665,708.3333,974.8,True,54.083349999999996
+317,Saroornagar Lake,2011,TSS,43.75,14,30.08335,14.0,77.0833,True,13.66665
+317,Saroornagar Lake,2011,Fluoride,2.374,14,1.085,0.7827,2.125,False,1.2890000000000001
+147,Khazipally Tank,2013,pH,7.4,13,7.1886,6.8917,7.7675,True,0.21140000000000025
+147,Khazipally Tank,2013,DO,3.6,13,5.3556,0.0,6.9333,True,-1.7555999999999998
+147,Khazipally Tank,2013,BOD,60.0,13,7.0,2.68,101.0,True,53.0
+147,Khazipally Tank,2013,Cond,1562.0,13,2718.25,855.4167,11864.1667,True,-1156.25
+147,Khazipally Tank,2013,Nitrate,0.1,13,24.125,16.625,35.0,False,-24.025
+147,Khazipally Tank,2013,COD,150.0,13,71.5,25.0,1573.1667,True,78.5
+147,Khazipally Tank,2013,TotalColi,1600.0,13,49.5,10.5,400.4,False,1550.5
+147,Khazipally Tank,2013,FecalColi,1600.0,13,5.75,1.0,117.4286,False,1594.25
+147,Khazipally Tank,2013,Turbidity,15.8686,13,19.375,3.15,68.5,True,-3.5063999999999993
+147,Khazipally Tank,2013,TotAlk,122.0,13,353.75,166.1667,734.25,False,-231.75
+147,Khazipally Tank,2013,Chloride,204.0,13,357.5714,139.75,3413.25,True,-153.57139999999998
+147,Khazipally Tank,2013,Sulphate,52.0,13,89.125,32.375,657.75,True,-37.125
+147,Khazipally Tank,2013,Hardness,386.0,13,617.8629,298.0367,2530.8333,True,-231.86289999999997
+147,Khazipally Tank,2013,TDS,1030.0,13,1613.1429,535.0973,8283.1667,True,-583.1429
+147,Khazipally Tank,2013,TSS,47.0,13,20.3636,6.8571,835.8333,True,26.6364
+147,Khazipally Tank,2013,Fluoride,1.2,13,0.298,0.11,1.7,True,0.9019999999999999
+235,Pedda cheruvu,2013,pH,7.6,14,7.5846,7.4208,7.865,True,0.015399999999999636
+235,Pedda cheruvu,2013,DO,1.2,14,0.98665,0.3417,5.15,True,0.21334999999999993
+235,Pedda cheruvu,2013,BOD,50.0,14,21.125,6.8583,197.6,True,28.875
+235,Pedda cheruvu,2013,Cond,2392.0,14,1489.4166500000001,1212.5833,2483.5,True,902.5833499999999
+235,Pedda cheruvu,2013,Nitrate,0.1,14,7.2936499999999995,0.45,14.9,False,-7.19365
+235,Pedda cheruvu,2013,COD,117.0,14,129.875,70.3,201.3333,True,-12.875
+235,Pedda cheruvu,2013,TotalColi,1600.0,14,465.36365,236.5833,1576.0,False,1134.63635
+235,Pedda cheruvu,2013,FecalColi,1600.0,14,50.458349999999996,25.3333,806.0,False,1549.5416500000001
+235,Pedda cheruvu,2013,Turbidity,15.8686,14,18.583350000000003,7.7833,24.3333,True,-2.714750000000002
+235,Pedda cheruvu,2013,TotAlk,384.0,14,357.4,274.4167,508.2857,True,26.600000000000023
+235,Pedda cheruvu,2013,Chloride,361.0,14,180.075,153.2,431.1429,True,180.925
+235,Pedda cheruvu,2013,Sulphate,114.0,14,88.33335,77.2,345.25,True,25.666650000000004
+235,Pedda cheruvu,2013,Hardness,675.0,14,425.875,311.0,683.5714,True,249.125
+235,Pedda cheruvu,2013,TDS,1596.0,14,923.8666499999999,744.5833,1493.75,False,672.1333500000001
+235,Pedda cheruvu,2013,TSS,72.0,14,24.98335,19.3333,42.75,False,47.01665
+235,Pedda cheruvu,2013,Fluoride,1.0,14,1.0272999999999999,0.7988,2.248,True,-0.02729999999999988
+149,Kistaipally Cheruvu,2024,pH,7.2033,7,7.2958,7.0478,7.5375,True,-0.09250000000000025
+149,Kistaipally Cheruvu,2024,DO,5.4917,7,5.3583,4.775,6.7375,True,0.13339999999999996
+149,Kistaipally Cheruvu,2024,BOD,7.925,7,7.2083,3.4083,11.875,True,0.7166999999999994
+149,Kistaipally Cheruvu,2024,Cond,4318.4167,7,3547.5,2267.4167,4095.0,False,770.9166999999998
+149,Kistaipally Cheruvu,2024,Nitrate,71.9167,7,16.875,12.8333,67.6667,False,55.041700000000006
+149,Kistaipally Cheruvu,2024,COD,126.1667,7,71.5,34.8333,93.3333,False,54.666700000000006
+149,Kistaipally Cheruvu,2024,TotalColi,67.9167,7,67.1667,32.5714,99.4167,True,0.75
+149,Kistaipally Cheruvu,2024,FecalColi,6.45,7,6.0583,1.0,7.8083,True,0.39170000000000016
+149,Kistaipally Cheruvu,2024,Turbidity,9.5917,7,14.4444,4.2125,23.4167,True,-4.8527000000000005
+149,Kistaipally Cheruvu,2024,TotAlk,582.5833,7,383.3333,286.3333,506.9167,False,199.25
+149,Kistaipally Cheruvu,2024,Chloride,809.9167,7,505.75,235.25,801.125,False,304.1667
+149,Kistaipally Cheruvu,2024,Sulphate,185.5,7,119.125,30.4167,155.3333,False,66.375
+149,Kistaipally Cheruvu,2024,Hardness,1476.5648,7,941.6821,453.5025,1095.0038,False,534.8827000000001
+149,Kistaipally Cheruvu,2024,TDS,2534.725,7,2051.0167,1320.0833,2573.0,True,483.7082999999998
+149,Kistaipally Cheruvu,2024,TSS,25.8333,7,19.9167,12.9167,28.5833,True,5.9166000000000025
+149,Kistaipally Cheruvu,2024,Fluoride,0.2967,7,0.367,0.1992,1.2988,True,-0.07029999999999997

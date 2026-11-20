@@ -1,0 +1,301 @@
+station_id,station_name,year,review_group,Consensus_Category,Chemical_Parameter,Original_Measurement,Training_Median,Training_Q1,Training_Q3,Robust_Deviation_IQR
+"station_id    112
+station_id    112
+Name: 4, dtype: object","D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point","year    2011
+year    2011
+Name: 4, dtype: object",normal,Flagged by 2 models,TSS,263.6667,17.4167,11.25,25.349975,17.464569972641794
+"station_id    112
+station_id    112
+Name: 4, dtype: object","D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point","year    2011
+year    2011
+Name: 4, dtype: object",normal,Flagged by 2 models,FecalColi,160.8,19.3818,6.085425,34.685625,4.944657729666226
+"station_id    112
+station_id    112
+Name: 4, dtype: object","D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point","year    2011
+year    2011
+Name: 4, dtype: object",normal,Flagged by 2 models,TotalColi,1085.0,284.83335,59.583349999999996,469.70000000000005,1.9510708721530812
+"station_id    112
+station_id    112
+Name: 4, dtype: object","D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point","year    2011
+year    2011
+Name: 4, dtype: object",normal,Flagged by 2 models,Turbidity,4.0,13.6,8.895875,18.875,-0.9620081921010109
+"station_id    112
+station_id    112
+Name: 4, dtype: object","D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point","year    2011
+year    2011
+Name: 4, dtype: object",normal,Flagged by 2 models,Chloride,26.2857,138.04165,65.81247499999999,188.20532500000002,-0.9130921454970612
+"station_id    147
+station_id    147
+Name: 7, dtype: object",Khazipally Tank,"year    2011
+year    2011
+Name: 7, dtype: object",extreme_valid,Flagged by all 3 models,Chloride,2950.5,138.04165,65.81247499999999,188.20532500000002,22.978943214411622
+"station_id    147
+station_id    147
+Name: 7, dtype: object",Khazipally Tank,"year    2011
+year    2011
+Name: 7, dtype: object",extreme_valid,Flagged by all 3 models,COD,1222.0,46.583349999999996,23.61875,91.270825,17.37443603910154
+"station_id    147
+station_id    147
+Name: 7, dtype: object",Khazipally Tank,"year    2011
+year    2011
+Name: 7, dtype: object",extreme_valid,Flagged by all 3 models,BOD,94.5,4.8606,2.6667,9.243974999999999,13.628653203644369
+"station_id    147
+station_id    147
+Name: 7, dtype: object",Khazipally Tank,"year    2011
+year    2011
+Name: 7, dtype: object",extreme_valid,Flagged by all 3 models,Hardness,2220.625,276.12435,175.0833,361.343725,10.439687604062968
+"station_id    147
+station_id    147
+Name: 7, dtype: object",Khazipally Tank,"year    2011
+year    2011
+Name: 7, dtype: object",extreme_valid,Flagged by all 3 models,Sulphate,642.75,61.875,32.4875,88.7292,10.3281906485757
+"station_id    235
+station_id    235
+Name: 12, dtype: object",Pedda cheruvu,"year    2011
+year    2011
+Name: 12, dtype: object",normal,Flagged by 2 models,FecalColi,806.0,19.3818,6.085425,34.685625,27.503940531884393
+"station_id    235
+station_id    235
+Name: 12, dtype: object",Pedda cheruvu,"year    2011
+year    2011
+Name: 12, dtype: object",normal,Flagged by 2 models,BOD,43.9875,4.8606,2.6667,9.243974999999999,5.9488009852104415
+"station_id    235
+station_id    235
+Name: 12, dtype: object",Pedda cheruvu,"year    2011
+year    2011
+Name: 12, dtype: object",normal,Flagged by 2 models,Fluoride,2.248,0.7422500000000001,0.445375,0.9583,2.9356143685724034
+"station_id    235
+station_id    235
+Name: 12, dtype: object",Pedda cheruvu,"year    2011
+year    2011
+Name: 12, dtype: object",normal,Flagged by 2 models,TotalColi,1460.0,284.83335,59.583349999999996,469.70000000000005,2.8654448679418403
+"station_id    235
+station_id    235
+Name: 12, dtype: object",Pedda cheruvu,"year    2011
+year    2011
+Name: 12, dtype: object",normal,Flagged by 2 models,Chloride,431.1429,138.04165,65.81247499999999,188.20532500000002,2.394757945419197
+"station_id    317
+station_id    317
+Name: 19, dtype: object",Saroornagar Lake,"year    2011
+year    2011
+Name: 19, dtype: object",normal,Flagged by 2 models,FecalColi,1196.0,19.3818,6.085425,34.685625,41.1402088097286
+"station_id    317
+station_id    317
+Name: 19, dtype: object",Saroornagar Lake,"year    2011
+year    2011
+Name: 19, dtype: object",normal,Flagged by 2 models,BOD,60.75,4.8606,2.6667,9.243974999999999,8.49734882607159
+"station_id    317
+station_id    317
+Name: 19, dtype: object",Saroornagar Lake,"year    2011
+year    2011
+Name: 19, dtype: object",normal,Flagged by 2 models,TotalColi,1600.0,284.83335,59.583349999999996,469.70000000000005,3.206811159702977
+"station_id    317
+station_id    317
+Name: 19, dtype: object",Saroornagar Lake,"year    2011
+year    2011
+Name: 19, dtype: object",normal,Flagged by 2 models,Fluoride,2.374,0.7422500000000001,0.445375,0.9583,3.18126431739533
+"station_id    317
+station_id    317
+Name: 19, dtype: object",Saroornagar Lake,"year    2011
+year    2011
+Name: 19, dtype: object",normal,Flagged by 2 models,COD,211.6667,46.583349999999996,23.61875,91.270825,2.4401816204454927
+"station_id    235
+station_id    235
+Name: 27, dtype: object",Pedda cheruvu,"year    2012
+year    2012
+Name: 27, dtype: object",extreme_valid,Flagged by all 3 models,BOD,197.6,4.8606,2.6667,9.243974999999999,29.30383783557781
+"station_id    235
+station_id    235
+Name: 27, dtype: object",Pedda cheruvu,"year    2012
+year    2012
+Name: 27, dtype: object",extreme_valid,Flagged by all 3 models,FecalColi,328.5714,19.3818,6.085425,34.685625,10.810749575177795
+"station_id    235
+station_id    235
+Name: 27, dtype: object",Pedda cheruvu,"year    2012
+year    2012
+Name: 27, dtype: object",extreme_valid,Flagged by all 3 models,TotalColi,1383.8889,284.83335,59.583349999999996,469.70000000000005,2.6798608395928327
+"station_id    235
+station_id    235
+Name: 27, dtype: object",Pedda cheruvu,"year    2012
+year    2012
+Name: 27, dtype: object",extreme_valid,Flagged by all 3 models,COD,194.7,46.583349999999996,23.61875,91.270825,2.189388130371463
+"station_id    235
+station_id    235
+Name: 27, dtype: object",Pedda cheruvu,"year    2012
+year    2012
+Name: 27, dtype: object",extreme_valid,Flagged by all 3 models,TotAlk,465.2222,214.73215,150.479175,297.041675,1.709100554371002
+"station_id    147
+station_id    147
+Name: 44, dtype: object",Khazipally Tank,"year    2013
+year    2013
+Name: 44, dtype: object",normal,Flagged by 2 models,FecalColi,1600.0,19.3818,6.085425,34.685625,55.26598415395696
+"station_id    147
+station_id    147
+Name: 44, dtype: object",Khazipally Tank,"year    2013
+year    2013
+Name: 44, dtype: object",normal,Flagged by 2 models,BOD,60.0,4.8606,2.6667,9.243974999999999,8.383319839903306
+"station_id    147
+station_id    147
+Name: 44, dtype: object",Khazipally Tank,"year    2013
+year    2013
+Name: 44, dtype: object",normal,Flagged by 2 models,TotalColi,1600.0,284.83335,59.583349999999996,469.70000000000005,3.206811159702977
+"station_id    147
+station_id    147
+Name: 44, dtype: object",Khazipally Tank,"year    2013
+year    2013
+Name: 44, dtype: object",normal,Flagged by 2 models,TSS,47.0,17.4167,11.25,25.349975,2.0981101030320977
+"station_id    147
+station_id    147
+Name: 44, dtype: object",Khazipally Tank,"year    2013
+year    2013
+Name: 44, dtype: object",normal,Flagged by 2 models,COD,150.0,46.583349999999996,23.61875,91.270825,1.5286545165096563
+"station_id    235
+station_id    235
+Name: 48, dtype: object",Pedda cheruvu,"year    2013
+year    2013
+Name: 48, dtype: object",normal,Flagged by 2 models,FecalColi,1600.0,19.3818,6.085425,34.685625,55.26598415395696
+"station_id    235
+station_id    235
+Name: 48, dtype: object",Pedda cheruvu,"year    2013
+year    2013
+Name: 48, dtype: object",normal,Flagged by 2 models,BOD,50.0,4.8606,2.6667,9.243974999999999,6.862933357659519
+"station_id    235
+station_id    235
+Name: 48, dtype: object",Pedda cheruvu,"year    2013
+year    2013
+Name: 48, dtype: object",normal,Flagged by 2 models,TSS,72.0,17.4167,11.25,25.349975,3.871162892132787
+"station_id    235
+station_id    235
+Name: 48, dtype: object",Pedda cheruvu,"year    2013
+year    2013
+Name: 48, dtype: object",normal,Flagged by 2 models,TotalColi,1600.0,284.83335,59.583349999999996,469.70000000000005,3.206811159702977
+"station_id    235
+station_id    235
+Name: 48, dtype: object",Pedda cheruvu,"year    2013
+year    2013
+Name: 48, dtype: object",normal,Flagged by 2 models,Hardness,675.0,276.12435,175.0833,361.343725,2.1414943619934292
+"station_id    317
+station_id    317
+Name: 56, dtype: object",Saroornagar Lake,"year    2013
+year    2013
+Name: 56, dtype: object",extreme_valid,Flagged by 2 models,BOD,86.0,4.8606,2.6667,9.243974999999999,12.33632469373715
+"station_id    317
+station_id    317
+Name: 56, dtype: object",Saroornagar Lake,"year    2013
+year    2013
+Name: 56, dtype: object",extreme_valid,Flagged by 2 models,FecalColi,170.0,19.3818,6.085425,34.685625,5.266333801861525
+"station_id    317
+station_id    317
+Name: 56, dtype: object",Saroornagar Lake,"year    2013
+year    2013
+Name: 56, dtype: object",extreme_valid,Flagged by 2 models,Fluoride,1.6,0.7422500000000001,0.445375,0.9583,1.6722717746259197
+"station_id    317
+station_id    317
+Name: 56, dtype: object",Saroornagar Lake,"year    2013
+year    2013
+Name: 56, dtype: object",extreme_valid,Flagged by 2 models,COD,158.0,46.583349999999996,23.61875,91.270825,1.646906617424521
+"station_id    317
+station_id    317
+Name: 56, dtype: object",Saroornagar Lake,"year    2013
+year    2013
+Name: 56, dtype: object",extreme_valid,Flagged by 2 models,TotAlk,345.0,214.73215,150.479175,297.041675,0.8888211513859275
+"station_id    147
+station_id    147
+Name: 62, dtype: object",Khazipally Tank,"year    2014
+year    2014
+Name: 62, dtype: object",extreme_valid,Flagged by 2 models,Chloride,3413.25,138.04165,65.81247499999999,188.20532500000002,26.75980132826386
+"station_id    147
+station_id    147
+Name: 62, dtype: object",Khazipally Tank,"year    2014
+year    2014
+Name: 62, dtype: object",extreme_valid,Flagged by 2 models,TSS,371.0833,17.4167,11.25,25.349975,25.082782061670322
+"station_id    147
+station_id    147
+Name: 62, dtype: object",Khazipally Tank,"year    2014
+year    2014
+Name: 62, dtype: object",extreme_valid,Flagged by 2 models,TDS,8283.1667,656.44165,360.562475,875.90175,14.799425194208222
+"station_id    147
+station_id    147
+Name: 62, dtype: object",Khazipally Tank,"year    2014
+year    2014
+Name: 62, dtype: object",extreme_valid,Flagged by 2 models,Cond,11864.1667,1076.5,583.4792,1440.363625,12.589406908638818
+"station_id    147
+station_id    147
+Name: 62, dtype: object",Khazipally Tank,"year    2014
+year    2014
+Name: 62, dtype: object",extreme_valid,Flagged by 2 models,Hardness,2487.4167,276.12435,175.0833,361.343725,11.872046088158557
+"station_id    147
+station_id    147
+Name: 76, dtype: object",Khazipally Tank,"year    2015
+year    2015
+Name: 76, dtype: object",extreme_valid,Flagged by all 3 models,TSS,835.8333,17.4167,11.25,25.349975,58.04383341105215
+"station_id    147
+station_id    147
+Name: 76, dtype: object",Khazipally Tank,"year    2015
+year    2015
+Name: 76, dtype: object",extreme_valid,Flagged by all 3 models,COD,1573.1667,46.583349999999996,23.61875,91.270825,22.56521104489404
+"station_id    147
+station_id    147
+Name: 76, dtype: object",Khazipally Tank,"year    2015
+year    2015
+Name: 76, dtype: object",extreme_valid,Flagged by all 3 models,Chloride,2271.5,138.04165,65.81247499999999,188.20532500000002,17.431233523853717
+"station_id    147
+station_id    147
+Name: 76, dtype: object",Khazipally Tank,"year    2015
+year    2015
+Name: 76, dtype: object",extreme_valid,Flagged by all 3 models,BOD,101.0,4.8606,2.6667,9.243974999999999,14.61690441710283
+"station_id    147
+station_id    147
+Name: 76, dtype: object",Khazipally Tank,"year    2015
+year    2015
+Name: 76, dtype: object",extreme_valid,Flagged by all 3 models,TDS,7352.6667,656.44165,360.562475,875.90175,12.993818586794106
+"station_id    290
+station_id    290
+Name: 126, dtype: object",River Manjeera at Yedu Payala Temple,"year    2018
+year    2018
+Name: 126, dtype: object",extreme_valid,Flagged by 2 models,Fluoride,5.4843,0.7422500000000001,0.445375,0.9583,9.245113808061605
+"station_id    290
+station_id    290
+Name: 126, dtype: object",River Manjeera at Yedu Payala Temple,"year    2018
+year    2018
+Name: 126, dtype: object",extreme_valid,Flagged by 2 models,Nitrate,12.5714,4.68055,1.5274,8.586649999999999,1.1178028827425013
+"station_id    290
+station_id    290
+Name: 126, dtype: object",River Manjeera at Yedu Payala Temple,"year    2018
+year    2018
+Name: 126, dtype: object",extreme_valid,Flagged by 2 models,Turbidity,4.1571,13.6,8.895875,18.875,-0.9462653288740245
+"station_id    290
+station_id    290
+Name: 126, dtype: object",River Manjeera at Yedu Payala Temple,"year    2018
+year    2018
+Name: 126, dtype: object",extreme_valid,Flagged by 2 models,TotalColi,11.5714,284.83335,59.583349999999996,469.70000000000005,-0.6663029896494083
+"station_id    290
+station_id    290
+Name: 126, dtype: object",River Manjeera at Yedu Payala Temple,"year    2018
+year    2018
+Name: 126, dtype: object",extreme_valid,Flagged by 2 models,FecalColi,2.0,19.3818,6.085425,34.685625,-0.6077509947482884
+"station_id    149
+station_id    149
+Name: 310, dtype: object",Kistaipally Cheruvu,"year    2024
+year    2024
+Name: 310, dtype: object",normal,Flagged by 2 models,Nitrate,71.9167,4.68055,1.5274,8.586649999999999,9.524545808690728
+"station_id    149
+station_id    149
+Name: 310, dtype: object",Kistaipally Cheruvu,"year    2024
+year    2024
+Name: 310, dtype: object",normal,Flagged by 2 models,Hardness,1476.5648,276.12435,175.0833,361.343725,6.444957107769941
+"station_id    149
+station_id    149
+Name: 310, dtype: object",Kistaipally Cheruvu,"year    2024
+year    2024
+Name: 310, dtype: object",normal,Flagged by 2 models,Chloride,809.9167,138.04165,65.81247499999999,188.20532500000002,5.48949591418126
+"station_id    149
+station_id    149
+Name: 310, dtype: object",Kistaipally Cheruvu,"year    2024
+year    2024
+Name: 310, dtype: object",normal,Flagged by 2 models,Cond,4318.4167,1076.5,583.4792,1440.363625,3.7833768538855166
+"station_id    149
+station_id    149
+Name: 310, dtype: object",Kistaipally Cheruvu,"year    2024
+year    2024
+Name: 310, dtype: object",normal,Flagged by 2 models,TDS,2534.725,656.44165,360.562475,875.90175,3.644751023488361

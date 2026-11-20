@@ -1,0 +1,40 @@
+{
+    "model": "GradientBoostingClassifier",
+    "best_parameters": {
+        "learning_rate": 0.1,
+        "max_depth": 3,
+        "min_samples_leaf": 4,
+        "n_estimators": 100,
+        "subsample": 1.0
+    },
+    "cv_macro_f1": 0.7822740394226504,
+    "test_accuracy": 0.9315789473684211,
+    "test_balanced_accuracy": 0.8943049014477588,
+    "test_macro_f1": 0.8398909918705076,
+    "test_weighted_f1": 0.9313877845020778,
+    "features": [
+        "pH",
+        "DO",
+        "BOD",
+        "Cond",
+        "Nitrate",
+        "COD",
+        "TotalColi",
+        "FecalColi",
+        "Turbidity",
+        "TotAlk",
+        "Chloride",
+        "Sulphate",
+        "Hardness",
+        "TDS",
+        "TSS",
+        "Fluoride"
+    ],
+    "classes": [
+        "Excellent",
+        "Good",
+        "Poor",
+        "Unfit",
+        "Very_poor"
+    ]
+}

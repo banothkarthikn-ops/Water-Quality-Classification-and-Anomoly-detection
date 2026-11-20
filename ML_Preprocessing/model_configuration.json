@@ -1,0 +1,44 @@
+{
+    "features": [
+        "pH",
+        "DO",
+        "BOD",
+        "Cond",
+        "Nitrate",
+        "COD",
+        "TotalColi",
+        "FecalColi",
+        "Turbidity",
+        "TotAlk",
+        "Chloride",
+        "Sulphate",
+        "Hardness",
+        "TDS",
+        "TSS",
+        "Fluoride"
+    ],
+    "target": "wqi_class",
+    "group_column": "station_id",
+    "number_of_features": 16,
+    "number_of_records": 1900,
+    "train_records": 1520,
+    "test_records": 380,
+    "train_stations": 237,
+    "test_stations": 61,
+    "test_size": 0.2,
+    "random_state": 42,
+    "classes": [
+        "Excellent",
+        "Good",
+        "Poor",
+        "Unfit",
+        "Very_poor"
+    ],
+    "class_mapping": {
+        "Excellent": 0,
+        "Good": 1,
+        "Poor": 2,
+        "Unfit": 3,
+        "Very_poor": 4
+    }
+}

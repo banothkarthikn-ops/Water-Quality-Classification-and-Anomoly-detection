@@ -1,0 +1,39 @@
+column,group,description,unit_or_values
+station_id,identifier,Integer ID of the normalised station name (same station across years).,
+station_name,identifier,Most common original station name for that ID.,
+source_type,identifier,river / lake_reservoir / groundwater / canal_drain / other; inferred from station name and table headings.,Heuristic
+year,identifier,Monitoring year (each row is an annual station average).,2011-2025 in model-ready file
+DO,feature,Dissolved oxygen.,mg/L
+pH,feature,pH.,4.65-9.94 after cleaning
+BOD,feature,Biochemical oxygen demand.,mg/L
+COD,feature,Chemical oxygen demand.,mg/L
+Cond,feature,Electrical conductivity. Sheet headers say mS/cm in some years but values are in uS/cm in all years (medians stable).,uS/cm
+TDS,feature,Total dissolved solids.,mg/L
+Hardness,feature,Total hardness as CaCO3.,mg/L
+Chloride,feature,Chloride.,mg/L
+Sulphate,feature,Sulphate.,mg/L
+Fluoride,feature,Fluoride.,mg/L
+Nitrate,feature,Nitrate. Treated as nitrate-N in all years (header says Nitrate-N 2010-18; medians show no unit jump later).,mg/L as N (assumption)
+Turbidity,feature,Turbidity.,NTU
+TotalColi,feature,Total coliform.,MPN/100 mL
+FecalColi,feature,Fecal coliform.,MPN/100 mL
+TotAlk,feature,Total alkalinity.,mg/L
+TSS,feature,Total suspended solids.,mg/L
+log1p_*,feature,"log(1+x) version of a right-skewed feature (Cond, BOD, COD, Nitrate, TotalColi, FecalColi, Turbidity, Chloride, Sulphate, Hardness, TDS, TSS, TotAlk, Fluoride). Use these OR the raw columns, not both.",
+wqi,label (derived),"Weighted-arithmetic Water Quality Index from pH, DO, BOD, TDS, hardness, chloride, sulphate, nitrate, fluoride, turbidity. Standards: BIS 10500 acceptable limits (pH 8.5, TDS 500, hardness 200, chloride 250, sulphate 200, fluoride 1.0, nitrate 10 as N, turbidity 5 NTU) plus DO 5 mg/L and BOD 3 mg/L (CPCB). Ideal values pH 7, DO 14.6. Weights = 1/standard. Each sub-index capped at 500. Computed from observed values only; needs >=8 of 10 parameters.",Lower is better
+wqi_class,label (derived),"Excellent <=50, Good 50-100, Poor 100-200, Very_poor 200-300, Unfit >300.",5 classes
+wqi_class_4,label (derived),wqi_class with Very_poor and Unfit merged (Unfit has very few rows).,4 classes
+cpcb_class,label (derived),"CPCB designated-best-use class from DO, pH, BOD, total coliform: A (DO>=6, pH 6.5-8.5, BOD<=2, TC<=50), B (DO>=5, pH 6.5-8.5, BOD<=3, TC<=500), C (DO>=4, pH 6-9, BOD<=3, TC<=5000), otherwise D_E (merged).",A/B/C/D_E
+potability_class,label (derived),"BIS 10500:2012 limits on dissolved chemistry only (pH 6.5-8.5, TDS, hardness, chloride, sulphate, fluoride, nitrate). Potable = all within acceptable limits; Treatment_needed = all within permissible limits but some above acceptable; Not_potable = any beyond permissible. Permissible: TDS 2000, hardness 600, chloride 1000, sulphate 400, fluoride 1.5. Turbidity and coliform are NOT used (raw surface water almost always exceeds them; they are removed by treatment).",3 classes
+potable,label (derived),"Strict binary: 1 = Potable class (all dissolved-chemistry parameters within acceptable limits), else 0. Suggested drinkable / not-drinkable target.",0/1
+potable_relaxed,label (derived),"Binary: 1 = Potable or Treatment_needed (within permissible limits), 0 = Not_potable.",0/1
+bis_n_exceed,info,Number of the 7 dissolved-chemistry checks above the acceptable limit.,Derived from features
+n_imputed,quality,"Number of the 11 secondary features filled by median (by source_type). Core features pH, DO, BOD, Cond, Nitrate are never imputed.",0-3
+n_extreme,quality,Number of features beyond 3.5 robust z-scores (median/MAD on log1p scale).,
+extreme_flag,quality,1 if n_extreme > 0.,0/1
+flag_bod_gt_cod,quality,BOD more than 1.1x COD (physically inconsistent).,0/1
+flag_fecal_gt_total,quality,Fecal coliform greater than total coliform (inconsistent).,0/1
+flag_tds_cond,quality,TDS/conductivity ratio outside 0.25-1.5 (typical about 0.6).,0/1
+suspect_record,quality,1 if any consistency flag is set or any impossible value was blanked in that row.,0/1
+review_group,quality,"normal / extreme_valid (extreme but passes consistency checks) / suspect_error. Heuristic proxy for the false-alarm analysis, not ground truth.",
+suggested_split,info,"Optional time-based split: train 2011-2022, val 2023, test 2024-2025. Station-grouped cross-validation is the stricter alternative.",

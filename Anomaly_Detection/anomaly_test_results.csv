@@ -1,0 +1,381 @@
+station_id,station_name,source_type,year,wqi_class,review_group,extreme_flag,suspect_record,suggested_split,IsolationForest_Prediction,IsolationForest_Anomaly,IsolationForest_Score,LOF_Prediction,LOF_Anomaly,LOF_Score,OneClassSVM_Prediction,OneClassSVM_Anomaly,OneClassSVM_Score,Algorithms_Flagging_Anomaly,Consensus_Anomaly,Consensus_Category
+45,Bibinagar Tank,lake_reservoir,2011,Poor,normal,0,0,train,1,False,-0.1443395912771162,1,False,1.2507938208816518,1,False,-1.259135022949641,0,False,Not flagged
+58,"Borewell at Bodhan, Sriramnagar colony, Shakkarnagar, NZB",groundwater,2011,Poor,normal,0,0,train,1,False,-0.13639774748537464,1,False,1.560803002902526,1,False,-1.7940749786909773,0,False,Not flagged
+71,Borewell at Nagari,groundwater,2011,Poor,normal,0,0,train,1,False,-0.11556693929518347,1,False,1.52579928582364,1,False,-1.7792066607703987,0,False,Not flagged
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2011,Good,suspect_error,0,1,train,1,False,-0.10664840031633566,1,False,1.5036782350160949,1,False,-1.3295061131025268,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2011,Good,normal,0,0,train,1,False,-0.05385009347856323,-1,True,2.8653975954208657,-1,True,2.571942781623493,2,True,Flagged by 2 models
+113,D/s of River Godavari at Rajahmundry (Dhavaleswaram),river,2011,Excellent,normal,0,0,train,1,False,-0.1335090719552352,1,False,1.3904446894680011,1,False,-0.5353662416423006,0,False,Not flagged
+136,Hussainsagar lake,lake_reservoir,2011,Very_poor,normal,0,0,train,1,False,-0.05316625568677785,1,False,1.0867307764458292,1,False,-0.15385109444138312,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2011,Very_poor,extreme_valid,1,0,train,-1,True,0.1960236328544981,-1,True,2.0642698861835145,-1,True,6.2948481816748885,3,True,Flagged by all 3 models
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2011,Good,normal,0,0,train,1,False,-0.12627574183181994,1,False,1.346546696524933,1,False,-1.2389442587291555,0,False,Not flagged
+153,"Kondakarla-Ava Lake, Kondakarla",lake_reservoir,2011,Good,extreme_valid,1,0,train,1,False,-0.1495661863877547,1,False,1.5776440745184122,1,False,-0.6709814144031014,0,False,Not flagged
+197,"Munneru before confluence with river Krishna at Nandigama (BM-Jan, Apr & Oct)",river,2011,Good,normal,0,0,train,1,False,-0.10763338757795388,1,False,1.204530841294699,1,False,-0.6594478944375943,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2011,Very_poor,normal,0,0,train,1,False,-0.045390526300231215,1,False,1.2817119894820088,1,False,-0.33161053453628675,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2011,Very_poor,normal,0,0,train,-1,True,0.045490232035205524,1,False,1.1446895033464548,-1,True,0.005703995112299687,2,True,Flagged by 2 models
+263,River Godavari at Polavaram,river,2011,Excellent,normal,0,0,train,1,False,-0.13159123258039968,1,False,1.2955956172131338,1,False,-0.3824063003899356,0,False,Not flagged
+274,"River Krishna at Amaravathi (BM-Jan, Apr & Oct)",river,2011,Good,normal,0,0,train,1,False,-0.11055949413992999,1,False,1.1001998234794363,1,False,-0.7621903933100826,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2011,Poor,normal,0,0,train,1,False,-0.14271607874678938,1,False,1.4161690502426318,1,False,-1.550740772347039,0,False,Not flagged
+303,"River Paleru at Jaggaiahpet (before confluence with Krishna) (BM-Jan, Apr & Oct)",river,2011,Good,normal,0,0,train,1,False,-0.09764546811257413,1,False,1.2681907942193062,1,False,-0.5841289835054679,0,False,Not flagged
+307,River Pennar at Unganoor (River Pennar before confluence with Chitravathi at Tadipatri),river,2011,Good,normal,0,0,train,1,False,-0.12596129493678093,1,False,1.0860412421144132,1,False,-1.6708245187173123,0,False,Not flagged
+316,Samarla kota canal,canal_drain,2011,Excellent,normal,0,0,train,1,False,-0.13146684330016678,1,False,1.3746880190312307,1,False,-0.5261963392499212,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2011,Very_poor,normal,0,0,train,-1,True,0.04030457607451099,1,False,1.1974576059184459,-1,True,0.14802395599698137,2,True,Flagged by 2 models
+45,Bibinagar Tank,lake_reservoir,2012,Poor,normal,0,0,train,1,False,-0.15391925768834258,1,False,1.4238798133512074,1,False,-2.0079836713398684,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2012,Good,normal,0,0,train,1,False,-0.10785448967447092,1,False,1.1363081011523184,1,False,-0.01963017630153363,0,False,Not flagged
+136,Hussainsagar lake,lake_reservoir,2012,Very_poor,normal,0,0,train,1,False,-0.016531434272573642,1,False,1.1486281819119366,-1,True,0.07745528471130392,1,False,Flagged by 1 model
+147,Khazipally Tank,lake_reservoir,2012,Very_poor,extreme_valid,1,0,train,-1,True,0.048948402337672836,1,False,1.2400344051474483,1,False,-0.5837008786481643,1,False,Flagged by 1 model
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2012,Excellent,normal,0,0,train,1,False,-0.11587522119737603,1,False,1.3776596399748913,1,False,-1.1233616065690537,0,False,Not flagged
+197,"Munneru before confluence with river Krishna at Nandigama (BM-Jan, Apr & Oct)",river,2012,Good,normal,0,0,train,1,False,-0.11955199990991183,1,False,1.118533947759688,1,False,-0.934447023646193,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2012,Very_poor,normal,0,0,train,1,False,-0.024475328899369264,1,False,1.2356386325318125,1,False,-0.31166506661745874,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2012,Very_poor,extreme_valid,1,0,train,-1,True,0.014555294523026396,-1,True,4.008905969925696,-1,True,6.832037611657025,3,True,Flagged by all 3 models
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2012,Very_poor,normal,0,0,train,1,False,-0.12554186935412331,1,False,1.0632664339091655,1,False,-0.9212095476435671,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2012,Poor,normal,0,0,train,1,False,-0.09081027664590047,1,False,1.1863668159857508,1,False,-0.13265579077224032,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2012,Very_poor,normal,0,0,train,1,False,-0.0742290460513389,1,False,1.286396599632782,-1,True,0.36788651379123305,1,False,Flagged by 1 model
+283,River Krishna at Wadapally after confluence with River Musi,river,2012,Good,normal,0,0,train,1,False,-0.1509135000792835,1,False,1.4122034273891906,1,False,-1.2591378531437218,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2012,Very_poor,normal,0,0,train,1,False,-0.06184278834204621,1,False,1.5449657648248956,-1,True,0.6201435048909971,1,False,Flagged by 1 model
+17,B/w at Peddavoora,groundwater,2013,Good,normal,0,0,train,1,False,-0.06350964393077074,-1,True,1.9382273924380342,1,False,-1.9836308823605275,1,False,Flagged by 1 model
+45,Bibinagar Tank,lake_reservoir,2013,Good,normal,0,0,train,1,False,-0.12991931171907795,1,False,1.7786811576011452,1,False,-1.6092753464632477,0,False,Not flagged
+47,"Bore well at Alladapalem village, Pydibhimavaram",groundwater,2013,Good,normal,0,0,train,1,False,-0.11269086063933348,1,False,1.3363446883764694,1,False,-1.3652131647437677,0,False,Not flagged
+48,Bore well at Arinama Akkivalasa,groundwater,2013,Good,normal,0,0,train,1,False,-0.14796188841007712,1,False,1.4022016356962577,1,False,-1.208159195188511,0,False,Not flagged
+58,"Borewell at Bodhan, Sriramnagar colony, Shakkarnagar, NZB",groundwater,2013,Good,normal,0,0,train,1,False,-0.0823561719025529,1,False,1.5414850897567103,1,False,-1.9986555043755683,0,False,Not flagged
+67,Borewell at Manakondur,groundwater,2013,Poor,normal,0,0,train,1,False,-0.07544435709470831,1,False,1.6248588907164234,-1,True,0.2237139527330907,1,False,Flagged by 1 model
+71,Borewell at Nagari,groundwater,2013,Excellent,normal,0,0,train,1,False,-0.13461770115707444,1,False,1.5529526153174174,1,False,-1.1922772763229457,0,False,Not flagged
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2013,Good,normal,0,0,train,1,False,-0.07805548037711785,-1,True,1.984840711181246,1,False,-1.8193091595186086,1,False,Flagged by 1 model
+77,Borewell at Vijayawada,groundwater,2013,Excellent,normal,0,0,train,1,False,-0.15449460063563786,1,False,1.4007338230793531,1,False,-1.2200015000850488,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2013,Good,normal,0,0,train,1,False,-0.13753717695042283,1,False,1.1773485941696105,1,False,-0.7538514414727286,0,False,Not flagged
+113,D/s of River Godavari at Rajahmundry (Dhavaleswaram),river,2013,Good,normal,0,0,train,1,False,-0.1022170821040096,1,False,1.454442942025326,1,False,-0.3232427103290654,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2013,Poor,normal,0,0,train,-1,True,0.023810332577686055,1,False,1.3442177839259917,-1,True,8.125522632873583e-05,2,True,Flagged by 2 models
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2013,Good,normal,0,0,train,1,False,-0.10784681589600204,1,False,1.236765204363775,1,False,-1.2043672945181765,0,False,Not flagged
+153,"Kondakarla-Ava Lake, Kondakarla",lake_reservoir,2013,Good,normal,0,0,train,1,False,-0.12685419159814,1,False,1.3901201863463526,1,False,-0.9944921028672269,0,False,Not flagged
+197,"Munneru before confluence with river Krishna at Nandigama (BM-Jan, Apr & Oct)",river,2013,Poor,extreme_valid,1,0,train,1,False,-0.08161791488135489,1,False,1.1502105766717772,1,False,-0.6010164723925406,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2013,Poor,normal,0,0,train,-1,True,0.03532595575696129,1,False,1.3519376999716213,-1,True,0.7227729061294568,2,True,Flagged by 2 models
+251,Ramappa lake,lake_reservoir,2013,Poor,normal,0,0,train,1,False,-0.09330293221326336,1,False,1.7652089522148273,1,False,-0.4479695576019127,0,False,Not flagged
+263,River Godavari at Polavaram,river,2013,Excellent,extreme_valid,1,0,train,1,False,-0.12303042255898888,1,False,1.3130894630409584,1,False,-0.4641250212433361,0,False,Not flagged
+274,"River Krishna at Amaravathi (BM-Jan, Apr & Oct)",river,2013,Good,normal,0,0,train,1,False,-0.08230962166751227,-1,True,2.0532511247341185,1,False,-0.7081164305125371,1,False,Flagged by 1 model
+283,River Krishna at Wadapally after confluence with River Musi,river,2013,Good,normal,0,0,train,1,False,-0.07945028418577316,1,False,1.8569765231012787,1,False,-1.297159023948124,0,False,Not flagged
+303,"River Paleru at Jaggaiahpet (before confluence with Krishna) (BM-Jan, Apr & Oct)",river,2013,Good,normal,0,0,train,1,False,-0.1275259774079745,1,False,1.4121560987976332,1,False,-0.944496232150339,0,False,Not flagged
+307,River Pennar at Unganoor (River Pennar before confluence with Chitravathi at Tadipatri),river,2013,Poor,normal,0,0,train,1,False,-0.07588162245521068,1,False,1.5614985513170732,-1,True,0.1985102907430658,1,False,Flagged by 1 model
+316,Samarla kota canal,canal_drain,2013,Excellent,normal,0,0,train,1,False,-0.10561997829466052,1,False,1.3492750196048329,1,False,-0.24387586501379133,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2013,Very_poor,extreme_valid,1,0,train,1,False,-0.06002723877648819,-1,True,2.1947123851586445,-1,True,2.2732334552235507,2,True,Flagged by 2 models
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2013,Good,normal,0,0,train,1,False,-0.1275259774079745,1,False,1.4121560987976332,1,False,-0.944496232150339,0,False,Not flagged
+17,B/w at Peddavoora,groundwater,2014,Good,normal,0,0,train,1,False,-0.13672570332509543,1,False,1.7121521236864812,1,False,-1.18818036432042,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2014,Poor,normal,0,0,train,1,False,-0.14377891700975876,1,False,1.491062953863746,1,False,-2.1098883743355152,0,False,Not flagged
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2014,Good,normal,0,0,train,1,False,-0.08054937618714808,1,False,1.8501394512386522,1,False,-1.5614836759135535,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2014,Poor,normal,0,0,train,1,False,-0.14952653826974188,1,False,1.0772426579281316,1,False,-0.8224581958334687,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2014,Very_poor,extreme_valid,1,0,train,-1,True,0.2147786393750244,1,False,1.8076039690131804,-1,True,6.643291394895998,2,True,Flagged by 2 models
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2014,Good,normal,0,0,train,1,False,-0.1534302219816887,1,False,1.3908016469101043,1,False,-1.0829103030489655,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2014,Poor,normal,0,0,train,1,False,-0.12814029338038813,1,False,1.2152503881124908,1,False,-1.7239782798377323,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2014,Poor,normal,0,0,train,1,False,-0.0918379177971248,1,False,1.2411435277102054,1,False,-1.8003325493462672,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2014,Very_poor,normal,0,0,train,1,False,-0.10643312785994558,1,False,1.2909308478559312,1,False,-1.7397209840210675,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2014,Good,normal,0,0,train,1,False,-0.1457444538260388,1,False,1.2265175273202762,1,False,-0.8136109440621322,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2014,Very_poor,normal,0,0,train,1,False,-0.06641528599174501,1,False,1.3766505197787138,1,False,-0.027521492034333406,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2014,Good,normal,0,0,train,1,False,-0.12512560602649175,1,False,1.6157748040932898,1,False,-1.260656884792386,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2014,Poor,normal,0,0,train,1,False,-0.10662444892294143,1,False,1.2387583446300672,1,False,-1.2056719641418088,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2014,Good,normal,0,0,train,1,False,-0.1419603560523351,1,False,1.4279378588540812,1,False,-1.0552530024249211,0,False,Not flagged
+17,B/w at Peddavoora,groundwater,2015,Good,normal,0,0,train,1,False,-0.09767467917052935,1,False,1.906061509793286,1,False,-1.1980626858097452,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2015,Poor,normal,0,0,train,1,False,-0.14291566489071217,1,False,1.6434954269049495,1,False,-2.146377555252899,0,False,Not flagged
+73,Borewell at Pashamylaram near M/s.Sri Chaitanya Chlorides,groundwater,2015,Good,normal,0,0,train,1,False,-0.11608318253902983,1,False,1.3518683168163554,1,False,-1.7360981620317588,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2015,Good,normal,0,0,train,1,False,-0.15143346082187326,1,False,1.195241464751856,1,False,-0.9377575370080429,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2015,Very_poor,extreme_valid,1,0,train,-1,True,0.2217091249231199,-1,True,2.623401037838806,-1,True,7.112260906979464,3,True,Flagged by all 3 models
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2015,Poor,normal,0,0,train,1,False,-0.13232978300477866,1,False,1.4307904007639247,1,False,-1.2327395365960179,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2015,Poor,normal,0,0,train,1,False,-0.11854500714350741,1,False,1.1705629232291694,1,False,-2.5674798362163926,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2015,Poor,normal,0,0,train,1,False,-0.13936594674928116,1,False,1.0549500951029933,1,False,-2.270215474013934,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2015,Good,normal,0,0,train,1,False,-0.14552579833327245,1,False,1.23559786458681,1,False,-0.6611698951285954,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2015,Poor,normal,0,0,train,1,False,-0.14527802765141135,1,False,1.1542080089042788,1,False,-1.882951143202666,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2015,Good,normal,0,0,train,1,False,-0.15073553507360143,1,False,1.2935771948293686,1,False,-1.248720097180886,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2015,Very_poor,normal,0,0,train,1,False,-0.13985540505494093,1,False,1.1392986346480138,1,False,-2.3842445500140297,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2015,Good,normal,0,0,train,1,False,-0.14708775375657512,1,False,1.3066166369382484,1,False,-0.951863584285201,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2016,Poor,normal,0,0,train,1,False,-0.10379316627330792,1,False,1.789632791026461,1,False,-1.0124278904246609,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2016,Good,normal,0,0,train,1,False,-0.14989314242346208,1,False,1.008205978092825,1,False,-0.9439299534192038,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2016,Poor,normal,0,0,train,1,False,-0.0025429266467997813,1,False,1.6485421322203195,1,False,-1.088847371360318,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2016,Poor,normal,0,0,train,1,False,-0.1487211275331518,1,False,1.2186381387829237,1,False,-1.3878098339852016,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2016,Very_poor,normal,0,0,train,1,False,-0.10227122409560668,1,False,1.3431607679661801,1,False,-2.3851687793501544,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2016,Very_poor,normal,0,0,train,1,False,-0.0761547898627184,-1,True,2.059609664538713,1,False,-2.1453380230957393,1,False,Flagged by 1 model
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2016,Very_poor,normal,0,0,train,1,False,-0.1369364914445108,1,False,1.1232693293774814,1,False,-2.5320445146822887,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2016,Good,normal,0,0,train,1,False,-0.14651723650590615,1,False,1.2290214589705803,1,False,-1.1016765042708077,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2016,Poor,normal,0,0,train,1,False,-0.15268804036494077,1,False,1.3337644369400827,1,False,-2.0202092873418227,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2016,Poor,normal,0,0,train,1,False,-0.1394571350512947,1,False,1.2479830854356568,1,False,-1.5750432970985582,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2016,Very_poor,normal,0,0,train,1,False,-0.11301453312895166,1,False,1.431255700026991,1,False,-2.1485027306546787,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2016,Poor,normal,0,0,train,1,False,-0.12780636213932,1,False,1.524985632909923,1,False,-1.6302466178998642,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2017,Very_poor,extreme_valid,1,0,train,1,False,-0.06536677490394377,-1,True,2.71717828490834,1,False,-0.8095031653388123,1,False,Flagged by 1 model
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2017,Good,normal,0,0,train,1,False,-0.13578079635109186,1,False,1.004816427449391,1,False,-0.885798566985871,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2017,Poor,normal,0,0,train,-1,True,0.05279781832152841,1,False,1.4055401776181076,1,False,-1.6961350719828907,1,False,Flagged by 1 model
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2017,Poor,normal,0,0,train,1,False,-0.14244494457720286,1,False,1.0532217580068592,1,False,-1.301599302265263,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2017,Very_poor,normal,0,0,train,1,False,-0.1296866052674185,1,False,1.2403599793969557,1,False,-2.5740190938750143,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2017,Very_poor,normal,0,0,train,1,False,-0.08651404678416913,1,False,1.3567261317054826,1,False,-2.431621611157336,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2017,Very_poor,normal,0,0,train,1,False,-0.11803502873212735,1,False,1.3753457488106888,1,False,-2.278397061774859,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2017,Good,normal,0,0,train,1,False,-0.11167499313340323,1,False,1.7656172939097226,1,False,-0.6179166127534703,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2017,Very_poor,normal,0,0,train,1,False,-0.11993859299983733,1,False,1.5886549030708739,1,False,-2.1837891652128025,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2017,Poor,normal,0,0,train,1,False,-0.1128227523968956,1,False,1.7706665374189314,1,False,-1.7972491225924188,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2017,Very_poor,normal,0,0,train,1,False,-0.046684293944333155,1,False,1.52034613964199,1,False,-2.0314375105583,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2017,Poor,normal,0,0,train,1,False,-0.14203955998655393,1,False,1.2357060286007573,1,False,-1.377958010092792,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.10848079817042905,1,False,1.3426195203189544,1,False,-1.6054055358251755,0,False,Not flagged
+67,Borewell at Manakondur,groundwater,2018,Poor,normal,0,0,train,1,False,-0.14776840927866386,1,False,1.5920341971838838,1,False,-1.5881819974269682,0,False,Not flagged
+79,Borewell IDA Kattedan,groundwater,2018,Poor,normal,0,0,train,-1,True,0.06829025110297315,1,False,1.591689920480836,1,False,-0.2569893458947483,1,False,Flagged by 1 model
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2018,Good,normal,0,0,train,1,False,-0.1547259865837171,1,False,1.1112250315909769,1,False,-0.6753400713934248,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.13335714210674965,1,False,1.365666697542142,1,False,-1.267516933501465,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2018,Poor,normal,0,0,train,-1,True,0.008404760383862508,1,False,1.1849735863174344,1,False,-1.9336827712731033,1,False,Flagged by 1 model
+151,"Komati Cheruvu,",lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.1413240371245883,-1,True,1.9957834290053722,1,False,-1.3887752606458204,1,False,Flagged by 1 model
+200,"Muthangi Tank,",lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.14206425374876958,1,False,1.3114084511938993,1,False,-1.945299782079072,0,False,Not flagged
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2018,Good,normal,0,0,train,1,False,-0.1448736969568611,1,False,1.665144973955389,1,False,-0.8301890438280211,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2018,Very_poor,normal,0,0,train,1,False,-0.05716062813394435,-1,True,2.308972939974101,1,False,-1.7994894669359613,1,False,Flagged by 1 model
+235,Pedda cheruvu,lake_reservoir,2018,Very_poor,normal,0,0,train,1,False,-0.07441356086847628,1,False,1.0471567651846263,1,False,-2.078043054987143,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",river,2018,Good,normal,0,0,train,1,False,-0.14712971524483826,1,False,1.553285920760071,1,False,-0.9572429793572272,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.11644612548448463,1,False,1.266145186820442,1,False,-2.5449526842381314,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.14536713422615588,1,False,1.3356353169271524,1,False,-0.7483255287805441,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.11027931591990442,1,False,1.564755867936634,1,False,-2.379036565704343,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2018,Poor,normal,0,0,train,1,False,-0.1513951890514484,1,False,1.3894002197353008,1,False,-2.0291663048104684,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2018,Poor,normal,0,0,train,1,False,-0.1111850068116017,1,False,1.4938484379546453,1,False,-1.7866415349490694,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2018,Unfit,extreme_valid,1,0,train,1,False,-0.06921445878051324,-1,True,2.7899055214448696,-1,True,0.10146004049603086,2,True,Flagged by 2 models
+317,Saroornagar Lake,lake_reservoir,2018,Very_poor,normal,0,0,train,1,False,-0.06352026869477756,1,False,1.1740225013389254,1,False,-2.3906487275317883,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2018,Poor,normal,0,0,train,1,False,-0.11261695676811762,1,False,1.3324404342657794,1,False,-1.8154640334122316,0,False,Not flagged
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2019,Very_poor,normal,0,0,train,1,False,-0.10479643567943536,1,False,1.4193940979303685,1,False,-1.8975593699157614,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.13542922262843599,1,False,1.307395765217401,1,False,-1.3615173040024597,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2019,Good,normal,0,0,train,1,False,-0.15828101825208046,1,False,0.9919016662726738,1,False,-0.5781259379060835,0,False,Not flagged
+134,HUDA Park Lake,lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.10620478105213432,1,False,1.2003010867565627,1,False,-2.135927620919908,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2019,Good,normal,0,0,train,1,False,-0.12238304369004294,1,False,1.2253456764734385,1,False,-1.641826234946624,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2019,Good,normal,0,0,train,1,False,-0.16415870800624566,1,False,1.0920754856235986,1,False,-0.7947217111834863,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.08594073231964822,1,False,1.4083586281155536,1,False,-2.070885257046619,0,False,Not flagged
+151,"Komati Cheruvu,",lake_reservoir,2019,Good,normal,0,0,train,1,False,-0.13956173531382177,1,False,1.098546570655169,1,False,-1.1433937239041008,0,False,Not flagged
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2019,Very_poor,normal,0,0,train,1,False,-0.0819041182456457,1,False,1.4763431121458015,1,False,-1.8593144750894304,0,False,Not flagged
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.14804940688816493,1,False,1.4723243908637582,1,False,-1.7065262284457479,0,False,Not flagged
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.1329048746686356,1,False,1.0609999261672027,1,False,-2.1510532357062733,0,False,Not flagged
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2019,Good,normal,0,0,train,1,False,-0.12521989857054538,1,False,1.050437894643133,1,False,-0.5052742454155457,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.128413623511347,1,False,1.1109806244378269,1,False,-2.174143607972894,0,False,Not flagged
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2019,Very_poor,normal,0,0,train,1,False,-0.11728982048916298,1,False,1.166231645132127,1,False,-2.3414159314156535,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",river,2019,Good,normal,0,0,train,1,False,-0.13034099103276325,1,False,0.9920901864781987,1,False,-0.5999734114613178,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.13130424722615558,1,False,1.0609094754769948,1,False,-2.403858720954254,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2019,Excellent,normal,0,0,train,1,False,-0.1442375851556566,1,False,1.0701806640955986,1,False,-0.2427717136422185,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.14737049517818823,1,False,1.128486888632399,1,False,-2.287012750112165,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.14264184739752728,1,False,1.052407271213468,1,False,-2.0278968687679164,0,False,Not flagged
+269,River godavari Kaleshwaram,river,2019,Good,normal,0,0,train,1,False,-0.15900824729996627,1,False,0.9941613435174983,1,False,-0.47195108256518736,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2019,Good,normal,0,0,train,1,False,-0.1412865670951124,1,False,1.1478631517624938,1,False,-1.1159868793612606,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2019,Good,normal,0,0,train,1,False,-0.13357251919669022,1,False,1.0900972080099334,1,False,-0.8754320120008758,0,False,Not flagged
+295,River Musi at Pillapalli,river,2019,Poor,normal,0,0,train,1,False,-0.07072624306214736,1,False,1.148764844721948,1,False,-1.4531439194221534,0,False,Not flagged
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2019,Good,normal,0,0,train,1,False,-0.1413691421672631,1,False,1.0426920462603129,1,False,-1.598570443621723,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2019,Poor,normal,0,0,train,1,False,-0.11363150078210821,1,False,1.168429113429865,1,False,-1.91103317241582,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2019,Good,normal,0,0,train,1,False,-0.14509951634490087,1,False,1.1619120417319333,1,False,-1.4096316654966916,0,False,Not flagged
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.14951137406331844,1,False,1.077540344464082,1,False,-2.1465385996352104,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2020,Good,normal,0,0,train,1,False,-0.14756712296352675,1,False,0.9729553460549123,1,False,-0.6933295161850364,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2020,Good,normal,0,0,train,1,False,-0.14223953537684136,1,False,1.586078265156827,1,False,-0.7540549667074821,0,False,Not flagged
+134,HUDA Park Lake,lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.1242538777423447,1,False,1.1672632564453518,1,False,-2.3614714243784274,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2020,Good,normal,0,0,train,1,False,-0.08101798149288886,1,False,1.4566104318439488,1,False,-1.8037888083135947,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.1551685097722884,1,False,1.273254303675016,1,False,-0.7930595743676374,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2020,Good,normal,0,0,train,1,False,-0.12188078641616445,1,False,1.1348534212764696,1,False,-1.6783872435104286,0,False,Not flagged
+151,"Komati Cheruvu,",lake_reservoir,2020,Good,normal,0,0,train,1,False,-0.15508662455430644,1,False,0.9942945681222299,1,False,-0.8837510017982133,0,False,Not flagged
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.10347999045875061,1,False,1.3333943340246628,1,False,-2.401432552073473,0,False,Not flagged
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.15538720699382852,1,False,1.1806301848120704,1,False,-1.351407949957915,0,False,Not flagged
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.15356726879626725,1,False,1.2098071448197956,1,False,-1.241192665846512,0,False,Not flagged
+200,"Muthangi Tank,",lake_reservoir,2020,Poor,suspect_error,1,1,train,1,False,-0.06140046116234116,-1,True,2.6716075258320844,1,False,-0.9394292536459918,1,False,Flagged by 1 model
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2020,Good,normal,0,0,train,1,False,-0.13518817611519945,1,False,0.9722806954958474,1,False,-0.5714507419566246,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.14523169440774075,1,False,1.5742515705404627,1,False,-1.9905493212651706,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.14417835448962335,1,False,1.0693290924366343,1,False,-1.9177059931779628,0,False,Not flagged
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.15621933025734192,1,False,1.1311515072959137,1,False,-1.986651552177774,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",river,2020,Excellent,normal,0,0,train,1,False,-0.12218784418240564,1,False,1.5530127166442478,1,False,-0.9536615019922365,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.1519128926951845,1,False,1.2185695205175624,1,False,-2.281345746521767,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2020,Good,normal,0,0,train,1,False,-0.13892425015280568,1,False,1.0508681850779615,1,False,-0.28010493014931104,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.16228084455709174,1,False,1.1384503892318913,1,False,-1.973862090523376,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.15848833568686554,1,False,1.1680317920723808,1,False,-1.5804265660091197,0,False,Not flagged
+269,River godavari Kaleshwaram,river,2020,Excellent,normal,0,0,train,1,False,-0.153171220331222,1,False,1.035082520017141,1,False,-0.45377176754736137,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2020,Good,normal,0,0,train,1,False,-0.1494027535808929,1,False,1.5234013974510334,1,False,-1.3591065090233592,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2020,Good,normal,0,0,train,1,False,-0.14717421165466843,1,False,0.9901170692718576,1,False,-0.7736175314845744,0,False,Not flagged
+295,River Musi at Pillapalli,river,2020,Poor,normal,0,0,train,1,False,-0.1411220048489315,1,False,1.1379754062022616,1,False,-2.3760599922806023,0,False,Not flagged
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2020,Good,normal,0,0,train,1,False,-0.14254534698524346,1,False,0.9915270108381916,1,False,-1.5203333066299933,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2020,Poor,normal,0,0,train,1,False,-0.15092170118316506,1,False,1.0567914437812358,1,False,-2.0189361644248045,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2020,Good,normal,0,0,train,1,False,-0.1534934305652227,1,False,1.0085951861623141,1,False,-1.11475767448721,0,False,Not flagged
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.15068070476854373,1,False,1.3330830415195891,1,False,-2.554809971367293,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.1519978656353338,1,False,0.9978068245909215,1,False,-0.974996261520138,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2021,Good,normal,0,0,train,1,False,-0.1561036781404091,1,False,1.0014077705519966,1,False,-0.44517061634608357,0,False,Not flagged
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.15927183263943556,1,False,1.0800814704421928,1,False,-2.2173180847207963,0,False,Not flagged
+134,HUDA Park Lake,lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.08487479196198605,1,False,1.484244044143453,1,False,-2.9606402349519136,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.09928483774487784,1,False,1.3471478892069233,1,False,-1.7871466248669616,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.1626210794119346,1,False,1.1327878663696958,1,False,-0.74107565306696,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.08028659597736881,1,False,1.5139945740627834,1,False,-1.5341436121068792,0,False,Not flagged
+151,"Komati Cheruvu,",lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.1460321590936446,1,False,1.0154015696647452,1,False,-0.8160815494616935,0,False,Not flagged
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.1596410802582806,1,False,1.004683578994323,1,False,-1.4450681952586528,0,False,Not flagged
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.14527914414410176,1,False,1.070329707250484,1,False,-2.5522243897430794,0,False,Not flagged
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.1663051774646374,1,False,1.0765946818395367,1,False,-2.0651299072634135,0,False,Not flagged
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.161940040659513,1,False,1.067835439498749,1,False,-1.2776639142258333,0,False,Not flagged
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.16000221654777458,1,False,1.092736113072395,1,False,-1.6982327150346972,0,False,Not flagged
+189,"Mohini Cheruvu, Ramanthapur (V), Uppal(M), Medchal-Malkajgiri (D)",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.16717370564909412,1,False,1.1669585267333686,1,False,-2.2956248706943434,0,False,Not flagged
+200,"Muthangi Tank,",lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.14890928413615373,1,False,0.9988780415922097,1,False,-0.7884967934445424,0,False,Not flagged
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.14516612162533693,1,False,0.9873073252274354,1,False,-0.710407228415459,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.16467135600323013,1,False,1.0340750049787293,1,False,-2.2022141390368883,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.1637921664733049,1,False,1.138860339897898,1,False,-2.244025627007723,0,False,Not flagged
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.16042814972734887,1,False,0.9902803515349528,1,False,-1.5784342151903719,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",river,2021,Excellent,normal,0,0,train,1,False,-0.1396904886543338,1,False,0.9981008932315195,1,False,-0.6633008205655102,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.16368312794680584,1,False,1.1158497764382986,1,False,-2.1405012723693346,0,False,Not flagged
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.15149751645748455,1,False,1.0940180642561015,1,False,-1.3287869199887457,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.14761970568875749,1,False,1.0273960232936683,1,False,-0.29926402249466477,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.1627164359250563,1,False,1.142631622388082,1,False,-2.084592530124546,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2021,Good,normal,0,0,train,1,False,-0.16369551633523816,1,False,1.0303693370342286,1,False,-1.496040028118676,0,False,Not flagged
+269,River godavari Kaleshwaram,river,2021,Good,normal,0,0,train,1,False,-0.15890150029705086,1,False,0.9855884946991275,1,False,-0.4579820712147482,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2021,Good,normal,0,0,train,1,False,-0.15527211479295144,1,False,1.0010706684683708,1,False,-1.1004106712372383,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2021,Good,normal,0,0,train,1,False,-0.14202431817748118,1,False,0.9916951094701705,1,False,-0.7127421405783538,0,False,Not flagged
+295,River Musi at Pillapalli,river,2021,Poor,normal,0,0,train,1,False,-0.1526099870214888,1,False,1.6612003009286251,1,False,-2.6118237663020114,0,False,Not flagged
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2021,Good,normal,0,0,train,1,False,-0.14535998113171733,1,False,1.0072011894643458,1,False,-1.5196079488804735,0,False,Not flagged
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.143581569482032,1,False,1.0782027136054664,1,False,-2.8510293214748454,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.16248567228786143,1,False,1.077042901591828,1,False,-2.4224863478761716,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2021,Good,normal,0,0,train,1,False,-0.1408015654135656,1,False,1.0220664227686167,1,False,-1.036696470505584,0,False,Not flagged
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2021,Poor,normal,0,0,train,1,False,-0.15828614888845477,1,False,1.1431189611990333,1,False,-2.5017032504119747,0,False,Not flagged
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.16226917565130355,1,False,1.0032775811706869,1,False,-2.244908310942563,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2022,Good,normal,0,0,train,1,False,-0.15628708732209906,1,False,1.0610719551855643,1,False,-1.431879781265737,0,False,Not flagged
+67,Borewell at Manakondur,groundwater,2022,Good,normal,0,0,train,1,False,-0.15784837856855716,1,False,1.2325410872907878,1,False,-1.2035687708441873,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2022,Good,normal,0,0,train,1,False,-0.13824053689108723,1,False,1.0415182307927322,1,False,-0.37491007534925647,0,False,Not flagged
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.15801517022963046,1,False,1.0838991438937695,1,False,-2.1785713417192945,0,False,Not flagged
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.12938225042059037,1,False,1.140408899815133,1,False,-2.5709160419155346,0,False,Not flagged
+134,HUDA Park Lake,lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.11859538648383361,1,False,1.2103901445927412,1,False,-2.4343075755095587,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.10731228846507668,1,False,1.3207084474934903,1,False,-1.9792972326025549,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,river,2022,Good,normal,0,0,train,1,False,-0.16031125040016458,1,False,1.2312558160357807,1,False,-0.781804757777989,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.024209777513812314,1,False,1.2398293460083203,1,False,-1.87859498616465,0,False,Not flagged
+151,"Komati Cheruvu,",lake_reservoir,2022,Good,normal,0,0,train,1,False,-0.16157865654961767,1,False,1.074197157646269,1,False,-1.095653978182142,0,False,Not flagged
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.16535324076820412,1,False,0.9778566289167767,1,False,-1.5656750413618639,0,False,Not flagged
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.15819049590261608,1,False,1.0325822357899617,1,False,-2.322347186388928,0,False,Not flagged
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1542722803797899,1,False,1.2860988459533433,1,False,-2.3958142160198808,0,False,Not flagged
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1563959461844721,1,False,1.2446212439062392,1,False,-2.256294754837505,0,False,Not flagged
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2022,Good,normal,0,0,train,1,False,-0.16297361761141255,1,False,1.119945767481457,1,False,-1.3166538283086293,0,False,Not flagged
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2022,Good,normal,0,0,train,1,False,-0.16426055424156144,1,False,0.9848412280957854,1,False,-1.4256580359923827,0,False,Not flagged
+189,"Mohini Cheruvu, Ramanthapur (V), Uppal(M), Medchal-Malkajgiri (D)",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.15074620273148898,1,False,1.1443866041853137,1,False,-2.175945033138751,0,False,Not flagged
+200,"Muthangi Tank,",lake_reservoir,2022,Good,normal,0,0,train,1,False,-0.15337189774073406,1,False,1.0789142754522802,1,False,-1.5407082810740746,0,False,Not flagged
+203,Nagarjuna Sagar Dam Spill way,river,2022,Good,normal,0,0,train,1,False,-0.15988846702897386,1,False,1.14484451319828,1,False,-0.981480725659722,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1428470108059643,1,False,1.294303813512916,1,False,-2.6000521117933015,0,False,Not flagged
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.14338726282850378,1,False,1.1525209457589605,1,False,-2.3042047788272146,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.16763766144091446,1,False,1.0117234562605815,1,False,-2.2211808723679347,0,False,Not flagged
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1499197860237112,1,False,1.0895023598697202,1,False,-1.8033373814979008,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",river,2022,Excellent,normal,0,0,train,1,False,-0.15602020983123044,1,False,1.2341157513489756,1,False,-0.9139532977075202,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.16959143376423452,1,False,1.044837977103421,1,False,-2.020631342072834,0,False,Not flagged
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1523195507366597,1,False,1.3369312794769044,1,False,-1.6002569545705576,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2022,Good,normal,0,0,train,1,False,-0.1360915864313762,1,False,1.028861340355283,1,False,-0.38448769614618605,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.16583643758004007,1,False,1.0143331268894875,1,False,-1.948942032420094,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2022,Good,normal,0,0,train,1,False,-0.16428424494969418,1,False,1.038909121998341,1,False,-1.408105653879776,0,False,Not flagged
+269,River godavari Kaleshwaram,river,2022,Good,normal,0,0,train,1,False,-0.1577462321677296,1,False,1.003833134157544,1,False,-0.6245142040155063,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2022,Good,normal,0,0,train,1,False,-0.15878932195903128,1,False,1.1259274366436562,1,False,-1.1033470742917508,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2022,Good,normal,0,0,train,1,False,-0.15915343053654185,1,False,1.0080225428505016,1,False,-0.9895253607762786,0,False,Not flagged
+291,River Musi at Bheemaram Bridge,river,2022,Good,normal,0,0,train,1,False,-0.16016123802724064,1,False,1.1400776840558526,1,False,-1.380732820697414,0,False,Not flagged
+295,River Musi at Pillapalli,river,2022,Poor,normal,0,0,train,1,False,-0.16681164644214946,1,False,1.070917759677784,1,False,-2.273227154780754,0,False,Not flagged
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2022,Good,normal,0,0,train,1,False,-0.15800993091811538,1,False,1.0533062659014198,1,False,-1.618874073560395,0,False,Not flagged
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1493926739887671,1,False,1.0903535303771497,1,False,-2.359840281730735,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1584677943398285,1,False,1.0037002294397288,1,False,-2.2745683072415908,0,False,Not flagged
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.1664808892114119,1,False,1.0213302607368206,1,False,-2.0444831592694737,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2022,Good,normal,0,0,train,1,False,-0.15946948414118084,1,False,1.002759353077444,1,False,-0.9364797528050524,0,False,Not flagged
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2022,Poor,normal,0,0,train,1,False,-0.15006677421378162,1,False,1.0594335721234518,1,False,-2.3913683121153344,0,False,Not flagged
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.15991799999667733,1,False,1.011120709945967,1,False,-2.443534060560731,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.1275050013064038,1,False,1.0127492927421757,1,False,-1.2289714902445965,0,False,Not flagged
+67,Borewell at Manakondur,groundwater,2023,Good,normal,0,0,val,1,False,-0.15673014542232683,1,False,1.2843895899606488,1,False,-1.2632080381096173,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2023,Good,normal,0,0,val,1,False,-0.1586240029263034,1,False,0.9880943640505417,1,False,-0.5198429805222782,0,False,Not flagged
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.1582138622994798,1,False,1.0317195981701706,1,False,-2.332359574723407,0,False,Not flagged
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.1364242818076471,1,False,1.2430877636825843,1,False,-2.7024405958033935,0,False,Not flagged
+134,HUDA Park Lake,lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.11875137918133521,1,False,1.1764385526869383,1,False,-2.629870644797263,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.0885032818633637,1,False,1.0982931638359685,1,False,-1.6550701547420985,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.16933993045204637,1,False,1.1021762524818057,1,False,-0.8341700387510294,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2023,Poor,normal,0,0,val,-1,True,0.009317975361903708,1,False,1.806932575138477,1,False,-1.1555336917612404,1,False,Flagged by 1 model
+151,"Komati Cheruvu,",lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.13876032020010043,1,False,0.9604860007750469,1,False,-0.993038380266162,0,False,Not flagged
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.16398796312187036,1,False,0.968635326558038,1,False,-1.6376796037954087,0,False,Not flagged
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.15490399715384878,1,False,1.0798716931325856,1,False,-2.3201846411735936,0,False,Not flagged
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.16565067973507808,1,False,0.9973850976113761,1,False,-2.1650417342300567,0,False,Not flagged
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.1604588306893493,1,False,1.0528460575249077,1,False,-2.168163278811443,0,False,Not flagged
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.16455828195467276,1,False,0.978372420792005,1,False,-1.4472834355073392,0,False,Not flagged
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.15694830110408314,1,False,1.0535237559909494,1,False,-1.2625016176031263,0,False,Not flagged
+189,"Mohini Cheruvu, Ramanthapur (V), Uppal(M), Medchal-Malkajgiri (D)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.16018469468542612,1,False,1.1320650874018123,1,False,-1.820034686920586,0,False,Not flagged
+200,"Muthangi Tank,",lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.1361795158415512,1,False,1.0525167641621194,1,False,-1.5466840254929934,0,False,Not flagged
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.14020438525418555,1,False,1.0072578914820745,1,False,-1.0081600300692468,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.14270930019846062,1,False,1.2560564708651085,1,False,-2.419031528892086,0,False,Not flagged
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.1530621843181349,1,False,1.0605430218108656,1,False,-2.385633719844556,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.16548377374975032,1,False,0.9626599892223728,1,False,-2.2826772831841975,0,False,Not flagged
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.15377212255746708,1,False,1.0546788909033664,1,False,-1.8871385354991688,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",river,2023,Good,normal,0,0,val,1,False,-0.14225714048189636,1,False,1.0034079611535405,1,False,-1.0286344779956718,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.1631445079921232,1,False,1.0023264154142535,1,False,-1.997079362159356,0,False,Not flagged
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.16416796419292484,1,False,0.993507041561266,1,False,-1.7213767790919334,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2023,Good,normal,0,0,val,1,False,-0.14425533402564122,1,False,1.2997497706817183,1,False,-0.5400003004517329,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.15894373114728583,1,False,1.035512928510924,1,False,-2.341645707209185,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.16220317490962494,1,False,1.0161930164403623,1,False,-1.494436990266502,0,False,Not flagged
+269,River godavari Kaleshwaram,river,2023,Good,normal,0,0,val,1,False,-0.1645667692213688,1,False,0.9628446380104215,1,False,-0.6558866706848203,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2023,Good,normal,0,0,val,1,False,-0.13567557421048432,1,False,1.0069380203631375,1,False,-1.2544013739572826,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2023,Good,normal,0,0,val,1,False,-0.13405135041035304,1,False,0.9629962402044472,1,False,-1.0842424256165408,0,False,Not flagged
+291,River Musi at Bheemaram Bridge,river,2023,Good,normal,0,0,val,1,False,-0.12228371925758308,1,False,1.2532964139157698,1,False,-1.4205719132675174,0,False,Not flagged
+295,River Musi at Pillapalli,river,2023,Poor,normal,0,0,val,1,False,-0.16279436741239894,1,False,1.0293236422701257,1,False,-2.1749441861376333,0,False,Not flagged
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2023,Good,normal,0,0,val,1,False,-0.12182216323889988,1,False,1.0027900082477057,1,False,-1.4433389157957173,0,False,Not flagged
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.1327599991403351,1,False,1.1286529006147485,1,False,-2.4562310410632193,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2023,Very_poor,normal,0,0,val,1,False,-0.15862121903177934,1,False,1.2164391688231098,1,False,-2.2750295960410085,0,False,Not flagged
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.15770734390903723,1,False,0.9879787862144471,1,False,-2.1672592248333906,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2023,Good,normal,0,0,val,1,False,-0.14551668483920593,1,False,1.0034125194706327,1,False,-1.2219102484633488,0,False,Not flagged
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2023,Poor,normal,0,0,val,1,False,-0.14460088171866892,1,False,1.0948086069825402,1,False,-2.3043715112150114,0,False,Not flagged
+3,"A Borewell sample collected Near water tank at Rajiv Gruha Kalpa, Ahmedguda, Ambedkar Nagar, Kapra",groundwater,2024,Good,normal,0,0,test,1,False,-0.13234346493859483,1,False,1.677682051017189,1,False,-1.0664956204675313,0,False,Not flagged
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.1579277249081154,1,False,1.02654364598186,1,False,-2.3133783596641315,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2024,Good,normal,0,0,test,1,False,-0.11241015341152766,1,False,1.039882405425115,1,False,-1.0530426353931244,0,False,Not flagged
+95,"Borewell sample collected from Residence of Sri Anjaneyulu, Plot No.25 (Hanuman Engineering), Shakthipuram, Prashanth Nagar, I.E., Kukatpally, Medchal-Malkajgiri Dist",groundwater,2024,Poor,normal,0,0,test,1,False,-0.10562224626070382,-1,True,1.9523649866759119,1,False,-1.9447455114376098,1,False,Flagged by 1 model
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2024,Good,normal,0,0,test,1,False,-0.15374960779109614,1,False,1.005831321584599,1,False,-0.5473507594220148,0,False,Not flagged
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.14101312562981122,1,False,1.235622015211901,1,False,-2.532602984742713,0,False,Not flagged
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2024,Very_poor,normal,0,0,test,1,False,-0.10890889797040337,1,False,1.312830552682894,1,False,-2.7753995098813053,0,False,Not flagged
+134,HUDA Park Lake,lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.10511829861354088,1,False,1.2499589881421642,1,False,-2.767339405339138,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2024,Good,normal,0,0,test,1,False,-0.1022762079082033,1,False,1.0706646515414817,1,False,-1.0922511091033336,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2024,Good,normal,0,0,test,1,False,-0.16235542646271955,1,False,1.206648166316267,1,False,-0.9128176831504344,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2024,Poor,normal,0,0,test,-1,True,0.07279857076608709,1,False,1.7799588821536916,-1,True,0.045830659955555575,2,True,Flagged by 2 models
+151,"Komati Cheruvu,",lake_reservoir,2024,Good,normal,0,0,test,1,False,-0.12695925125098445,1,False,1.0005686553704864,1,False,-1.1933309158403702,0,False,Not flagged
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.1628592536365504,1,False,0.9861293374680772,1,False,-1.6467046949955222,0,False,Not flagged
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.16488628937900363,1,False,1.0233972960541076,1,False,-2.31279279061458,0,False,Not flagged
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.16646340029881923,1,False,0.9871600062135263,1,False,-2.2082414899753164,0,False,Not flagged
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.16595600934192423,1,False,1.0520495937080825,1,False,-1.6599892010765913,0,False,Not flagged
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.15357500830394322,1,False,1.0880070464352911,1,False,-1.4681850000904166,0,False,Not flagged
+200,"Muthangi Tank,",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.09129872600388605,1,False,1.1727344482653623,1,False,-1.1043246583764326,0,False,Not flagged
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2024,Good,normal,0,0,test,1,False,-0.12151801366117826,1,False,0.9705626362415807,1,False,-0.9209461301220436,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.15608475332835553,1,False,0.9940572713089042,1,False,-2.4655932476189246,0,False,Not flagged
+214,"Open Well at Govt Ashram School, Tadvai",groundwater,2024,Good,normal,0,0,test,1,False,-0.156931271454556,1,False,1.1208885938823019,1,False,-1.1879244091434114,0,False,Not flagged
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.12415741741648134,1,False,1.0583465777460324,1,False,-2.7233275186200654,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.16084943354649767,1,False,1.1079936187055532,1,False,-2.483072828284646,0,False,Not flagged
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.1474648044179384,1,False,1.1863570439758635,1,False,-2.0133412763839846,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",river,2024,Good,normal,0,0,test,1,False,-0.14002133937514594,1,False,0.9927963068119805,1,False,-0.9288485257395642,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.1663377138179118,1,False,0.9940293804417883,1,False,-2.0697061981518274,0,False,Not flagged
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.16411626701508947,1,False,1.017538368011958,1,False,-1.9496739560216554,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2024,Good,normal,0,0,test,1,False,-0.16359150014156365,1,False,0.9804746361845902,1,False,-0.6226387082593456,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.15092169781949233,1,False,1.0884404381907298,1,False,-2.3272145343984754,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.16173017194599942,1,False,1.195793265623905,1,False,-2.0234959062387645,0,False,Not flagged
+269,River godavari Kaleshwaram,river,2024,Good,normal,0,0,test,1,False,-0.16571395461790273,1,False,1.0016103890680035,1,False,-0.7197540059515148,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2024,Good,normal,0,0,test,1,False,-0.13128370545789386,1,False,1.0169941348043503,1,False,-1.188490808632837,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2024,Good,normal,0,0,test,1,False,-0.11481174923976134,1,False,1.0388355679936674,1,False,-0.9132989228509949,0,False,Not flagged
+291,River Musi at Bheemaram Bridge,river,2024,Good,normal,0,0,test,1,False,-0.1077901783626583,1,False,1.0114178035564505,1,False,-1.3140593740954891,0,False,Not flagged
+295,River Musi at Pillapalli,river,2024,Poor,normal,0,0,test,1,False,-0.16233953345742885,1,False,1.004291631265419,1,False,-2.2797138605637848,0,False,Not flagged
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2024,Good,normal,0,0,test,1,False,-0.09034175339418354,1,False,1.0319865400817156,1,False,-1.1500740633607602,0,False,Not flagged
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.13745559104987276,1,False,1.0894619949391575,1,False,-2.5473382941542244,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.15179619829319957,1,False,1.0692983429685161,1,False,-2.3886901430013463,0,False,Not flagged
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.15681362695525625,1,False,1.0208140363570801,1,False,-2.1878564132070846,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2024,Good,normal,0,0,test,1,False,-0.13421343490306287,1,False,0.9932527709104677,1,False,-1.084317971937903,0,False,Not flagged
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2024,Poor,normal,0,0,test,1,False,-0.1490134284217589,1,False,1.0472069257151662,1,False,-2.5166935245796065,0,False,Not flagged
+35,"Banda Cheruvu, Malkajigiri (V),Malkajigiri (new mandal)",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.1639905815829218,1,False,1.061089721826869,1,False,-2.199082656710992,0,False,Not flagged
+45,Bibinagar Tank,lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.09902453561271768,1,False,1.2828522148870467,1,False,-0.876463784114236,0,False,Not flagged
+112,"D/s of River Godavari at Kamalapur (V) at M/s.AP Rayons Ltd., discharge point",river,2025,Excellent,normal,0,0,test,1,False,-0.15222415261126326,1,False,0.9979483063262322,1,False,-0.391148592801712,0,False,Not flagged
+120,"DMRL, Lake, Kanchanbagh, Hyderabad",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.14116844336745688,1,False,1.1837781129944067,1,False,-2.659846999930908,0,False,Not flagged
+123,"Erra Kunta, Laxmiguda (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.14033704842228184,1,False,1.2725318559936005,1,False,-2.484829052411131,0,False,Not flagged
+134,HUDA Park Lake,lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15473617583646304,1,False,1.1078793482496123,1,False,-2.404861569783934,0,False,Not flagged
+147,Khazipally Tank,lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.12103342372701736,1,False,1.0147057346264425,1,False,-0.9434351182825687,0,False,Not flagged
+148,Kinnerasani after confluence of KTPS ash pond effluents,lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.16348125299120275,1,False,1.0941691015044077,1,False,-0.7548933151179558,0,False,Not flagged
+149,Kistaipally Cheruvu,lake_reservoir,2025,Poor,normal,0,0,test,-1,True,0.02279415319059319,1,False,1.819887729255767,1,False,-0.60763419698241,1,False,Flagged by 1 model
+151,"Komati Cheruvu,",lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.1326325650366682,1,False,0.960521294533198,1,False,-0.9644270390334668,0,False,Not flagged
+152,"Komati Kunta, Gopanpally, Serilingampally, Rangareddy Dist.",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.1533200883883149,1,False,1.0171697950083467,1,False,-1.1941381475914365,0,False,Not flagged
+155,"Kotha Cheruvu (Alwal Cheruvu), Alwal (V),",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15650717391870728,1,False,1.0446985969469504,1,False,-2.224092651280108,0,False,Not flagged
+157,"Kotha Cheruvu, Shaikpet, Hyderabad",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.1714686551922932,1,False,0.9983562476644584,1,False,-2.1584566684614064,0,False,Not flagged
+161,"Kummari Kunta, Anmagal (V), Hayathnagar (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.16412233359304318,1,False,1.0171151811865056,1,False,-1.8195648706822833,0,False,Not flagged
+171,"Lotus pond, Hakimpet (V), Shaik pet (new mandal)",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.16577327760897825,1,False,1.0443276507378603,1,False,-1.3973731442923807,0,False,Not flagged
+187,"Meedi Kunta, Hafeezpet (V), Serlingampally",lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.16866210357310246,1,False,1.0422584785353428,1,False,-1.248622005580824,0,False,Not flagged
+200,"Muthangi Tank,",lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.11158119266272798,1,False,1.0360892780426423,1,False,-1.278845290292658,0,False,Not flagged
+203,Nagarjuna Sagar Dam Spill way,lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.1238653882232208,1,False,0.995217393768859,1,False,-0.8052753818147798,0,False,Not flagged
+207,Nalla cheruvu,lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15826895286043335,1,False,1.041032340263082,1,False,-2.2577946917880833,0,False,Not flagged
+229,"Palle Cheruvu, Mailardev Pally (V), Rajendranagar (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.14508180756588496,1,False,1.3502835516825908,1,False,-2.1048073444057973,0,False,Not flagged
+235,Pedda cheruvu,lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.16251927889264045,1,False,1.0264253113549338,1,False,-2.182000010245389,0,False,Not flagged
+239,"Pedda Cheruvu, Mansoorabad, Saroornagar, Rangareddy District.",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15511977854424225,1,False,1.0576488860870679,1,False,-1.6691671898513203,0,False,Not flagged
+243,"Pochara Water Falls, Adilabad",other,2025,Good,normal,0,0,test,1,False,-0.12388537307095226,1,False,1.0003034101240136,1,False,-0.7798150317897035,0,False,Not flagged
+244,"Pragathinagar cheruvu, Kukatpally",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.16522261913091085,1,False,1.0221745414769485,1,False,-1.7454004552925841,0,False,Not flagged
+248,"Ramamma Kunta , Gachibowli (V), Sherilingampally(M), Ranga Reddy (D)",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.16549339339468616,1,False,1.004343813741758,1,False,-1.6885934753941285,0,False,Not flagged
+251,Ramappa lake,lake_reservoir,2025,Good,normal,0,0,test,1,False,-0.15528489860530387,1,False,0.9971373791408643,1,False,-0.4578604791231031,0,False,Not flagged
+252,Rangadhamuni cheruvu,lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15220654198666417,1,False,1.0957411926645126,1,False,-2.2627735605817954,0,False,Not flagged
+253,"Rangasamudram, Warangal",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.16216807280092893,1,False,1.0185298607738988,1,False,-1.3909992027062206,0,False,Not flagged
+269,River godavari Kaleshwaram,river,2025,Good,normal,0,0,test,1,False,-0.1577098023954991,1,False,0.994975172051228,1,False,-0.6053809588917787,0,False,Not flagged
+283,River Krishna at Wadapally after confluence with River Musi,river,2025,Good,normal,0,0,test,1,False,-0.13095408569431327,1,False,0.9731895736145194,1,False,-1.0608236679493785,0,False,Not flagged
+290,River Manjeera at Yedu Payala Temple,river,2025,Good,normal,0,0,test,1,False,-0.11819258276136108,1,False,1.0257314962753386,1,False,-0.7615963052981574,0,False,Not flagged
+291,River Musi at Bheemaram Bridge,river,2025,Good,normal,0,0,test,1,False,-0.10186637256678094,1,False,1.0755851245336439,1,False,-0.9199586158213027,0,False,Not flagged
+295,River Musi at Pillapalli,river,2025,Poor,normal,0,0,test,1,False,-0.16695721572367322,1,False,0.9825076160497235,1,False,-2.1222489216075626,0,False,Not flagged
+297,"River Musi at Valigonda bridge, Nalgonda dist",river,2025,Good,normal,0,0,test,1,False,-0.09707674589827858,1,False,1.0762714382665768,1,False,-0.8863909392870237,0,False,Not flagged
+315,"Salkam Cheruvu, Bandlaguda, Hyderabad",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15213272283499413,1,False,1.1115241320768652,1,False,-2.4664157008342364,0,False,Not flagged
+317,Saroornagar Lake,lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15950080173585518,1,False,1.0064272166940536,1,False,-2.254878072918215,0,False,Not flagged
+329,"Thammidi Kunta, Khanapet (V), Serlingampally (M), Rangareddy (D)",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.15598595591604242,1,False,1.1785978553206962,1,False,-1.7120109839508242,0,False,Not flagged
+339,U/s of River Manjeera at Gowdicherla before confluence with Nakkavagu,river,2025,Good,normal,0,0,test,1,False,-0.12946617747599198,1,False,0.9950806815347069,1,False,-1.0565830174462238,0,False,Not flagged
+347,"Yellamma Cheruvu, Kukatpally, Medchal- Malkajgiri Dist.",lake_reservoir,2025,Poor,normal,0,0,test,1,False,-0.1566976634302118,1,False,0.9907343314970861,1,False,-2.3305202119935693,0,False,Not flagged

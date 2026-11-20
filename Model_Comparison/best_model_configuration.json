@@ -1,0 +1,32 @@
+{
+    "best_model": "Gradient Boosting",
+    "selection_metric": "CV Macro F1",
+    "cv_macro_f1": 0.7763236313367348,
+    "features": [
+        "pH",
+        "DO",
+        "BOD",
+        "Cond",
+        "Nitrate",
+        "COD",
+        "TotalColi",
+        "FecalColi",
+        "Turbidity",
+        "TotAlk",
+        "Chloride",
+        "Sulphate",
+        "Hardness",
+        "TDS",
+        "TSS",
+        "Fluoride"
+    ],
+    "classes": [
+        "Excellent",
+        "Good",
+        "Poor",
+        "Unfit",
+        "Very_poor"
+    ],
+    "training_records": 1520,
+    "testing_records": 380
+}

@@ -1,0 +1,34 @@
+{
+    "models": [
+        "Isolation Forest",
+        "Local Outlier Factor",
+        "One-Class SVM"
+    ],
+    "contamination_setting": 0.05,
+    "training_samples": 1520,
+    "testing_samples": 380,
+    "number_of_features": 16,
+    "features": [
+        "pH",
+        "DO",
+        "BOD",
+        "Cond",
+        "Nitrate",
+        "COD",
+        "TotalColi",
+        "FecalColi",
+        "Turbidity",
+        "TotAlk",
+        "Chloride",
+        "Sulphate",
+        "Hardness",
+        "TDS",
+        "TSS",
+        "Fluoride"
+    ],
+    "isolation_forest_estimators": 200,
+    "lof_neighbors": 20,
+    "one_class_svm_kernel": "rbf",
+    "one_class_svm_gamma": "scale",
+    "consensus_rule": "At least 2 of 3 models flag the sample"
+}

@@ -1,0 +1,17 @@
+Parameter,Measured_Value,SHAP_Contribution,Effect,Absolute_Contribution
+BOD,2.7455,0.21326126286032512,Pushes towards predicted class,0.21326126286032512
+Fluoride,0.8842,-0.14413559053435365,Pushes away from predicted class,0.14413559053435365
+Turbidity,13.3333,0.03153604731647156,Pushes towards predicted class,0.03153604731647156
+DO,5.4417,0.030922092855952456,Pushes towards predicted class,0.030922092855952456
+TotalColi,210.3333,-0.02731717885737936,Pushes away from predicted class,0.02731717885737936
+FecalColi,22.9167,-0.025340876987906626,Pushes away from predicted class,0.025340876987906626
+TSS,23.8333,-0.018145711226920436,Pushes away from predicted class,0.018145711226920436
+COD,34.3333,0.013322559839183507,Pushes towards predicted class,0.013322559839183507
+Nitrate,1.9167,0.012257332200969232,Pushes towards predicted class,0.012257332200969232
+pH,8.3842,0.011486838344753197,Pushes towards predicted class,0.011486838344753197
+Cond,570.3333,0.0,Pushes away from predicted class,0.0
+TotAlk,188.4167,0.0,Pushes away from predicted class,0.0
+Sulphate,21.5833,0.0,Pushes away from predicted class,0.0
+Chloride,75.9167,0.0,Pushes away from predicted class,0.0
+TDS,418.9167,0.0,Pushes away from predicted class,0.0
+Hardness,170.0,0.0,Pushes away from predicted class,0.0

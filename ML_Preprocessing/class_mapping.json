@@ -1,0 +1,7 @@
+{
+    "Excellent": 0,
+    "Good": 1,
+    "Poor": 2,
+    "Unfit": 3,
+    "Very_poor": 4
+}

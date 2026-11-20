@@ -1,0 +1,29 @@
+WATER QUALITY ML PREPROCESSING REPORT
+=======================================================
+Total records: 1900
+Total features: 16
+Training records: 1520
+Testing records: 380
+Training stations: 237
+Testing stations: 61
+Station overlap: 0
+Target classes: ['Excellent', 'Good', 'Poor', 'Unfit', 'Very_poor']
+Missing training measurements: 0
+Missing test measurements: 0
+
+Training Class Counts:
+Poor         727
+Good         589
+Very_poor    141
+Excellent     57
+Unfit          6
+
+Testing Class Counts:
+Poor         182
+Good         147
+Very_poor     36
+Excellent     14
+Unfit          1
+
+Selected Features:
+pH, DO, BOD, Cond, Nitrate, COD, TotalColi, FecalColi, Turbidity, TotAlk, Chloride, Sulphate, Hardness, TDS, TSS, Fluoride

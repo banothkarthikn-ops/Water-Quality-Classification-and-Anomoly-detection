@@ -1,0 +1,4 @@
+Model,Total_Test_Samples,Normal_Samples,Anomalous_Samples,Anomaly_Rate_Percent
+Isolation Forest,380,365,15,3.95
+Local Outlier Factor,380,365,15,3.95
+One-Class SVM,380,363,17,4.47

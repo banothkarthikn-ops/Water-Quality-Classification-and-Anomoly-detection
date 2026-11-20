@@ -1,0 +1,56 @@
+WATER QUALITY EDA SUMMARY
+==================================================
+Total Records: 1900
+Total Columns: 51
+Unique Classes: 5
+
+Class Distribution:
+wqi_class
+Poor         909
+Good         736
+Very_poor    177
+Excellent     71
+Unfit          7
+
+Missing Values:
+pH           0
+DO           0
+BOD          0
+Cond         0
+Nitrate      0
+COD          0
+TotalColi    0
+FecalColi    0
+Turbidity    0
+TotAlk       0
+Chloride     0
+Sulphate     0
+Hardness     0
+TDS          0
+TSS          0
+Fluoride     0
+
+Outlier Summary:
+Parameter         Q1          Q3  Lower Limit  Upper Limit  Outlier Count  Outlier Percentage
+       pH   7.366700    7.842700     6.652700     8.556700             19            1.000000
+       DO   1.408900    5.991700    -5.465300    12.865900              0            0.000000
+      BOD   2.675000    9.243975    -7.178462    19.097437            217           11.421053
+     Cond 601.770850 1450.187475  -670.854087  2722.812412             98            5.157895
+  Nitrate   1.587125    8.998400    -9.529787    20.115313            190           10.000000
+      COD  23.416700   92.520825   -80.239488   196.177013             57            3.000000
+TotalColi  57.281225  466.166675  -556.046950  1079.494850            129            6.789474
+FecalColi   6.000000   34.219675   -36.329513    76.549188            215           11.315789
+Turbidity   9.000000   18.710400    -5.565600    33.276000             93            4.894737
+   TotAlk 150.312525  302.083325   -77.343675   529.739525             36            1.894737
+ Chloride  70.583350  191.250000  -110.416625   372.249975            112            5.894737
+ Sulphate  32.364575   89.170475   -52.844275   174.379325             72            3.789474
+ Hardness 177.708325  366.359025  -105.267725   649.335075             97            5.105263
+      TDS 371.187475  884.750025  -399.156350  1655.093850            100            5.263158
+      TSS  11.333300   25.381250    -9.738625    46.453175            123            6.473684
+ Fluoride   0.441550    0.963075    -0.340738     1.745363             49            2.578947
+
+Review Group Summary:
+review_group
+normal           1806
+extreme_valid      86
+suspect_error       8

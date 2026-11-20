@@ -1,0 +1,4 @@
+review_group,Excellent,Good,Poor,Unfit,Very_poor
+extreme_valid,12,14,14,6,40
+normal,59,721,890,1,135
+suspect_error,0,1,5,0,2
