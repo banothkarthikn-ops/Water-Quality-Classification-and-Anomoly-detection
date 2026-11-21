@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 import pandas as pd
 from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, ConfigDict, Field
 
 BASE = Path(__file__).resolve().parent
 PREP = BASE / "ML_Preprocessing"
@@ -44,23 +44,26 @@ app = FastAPI(
 class WaterSample(BaseModel):
     model_config = ConfigDict(allow_inf_nan=False)
 
-    pH: float
-    DO: float
-    BOD: float
-    Cond: float
-    Nitrate: float
-    COD: float
-    TotalColi: float
-    FecalColi: float
-    Turbidity: float
-    TotAlk: float
-    Chloride: float
-    Sulphate: float
-    Hardness: float
-    TDS: float
-    TSS: float
-    Fluoride: float
-    microbiological_verified: bool = False
+    pH: float = Field(..., title="pH — Acidity / Alkalinity")
+    DO: float = Field(..., title="DO — Dissolved Oxygen")
+    BOD: float = Field(..., title="BOD — Biochemical Oxygen Demand")
+    Cond: float = Field(..., title="Cond — Electrical Conductivity")
+    Nitrate: float = Field(..., title="Nitrate — Nitrate Concentration")
+    COD: float = Field(..., title="COD — Chemical Oxygen Demand")
+    TotalColi: float = Field(..., title="TotalColi — Total Coliform Count")
+    FecalColi: float = Field(..., title="FecalColi — Faecal Coliform Count")
+    Turbidity: float = Field(..., title="Turbidity — Water Cloudiness")
+    TotAlk: float = Field(..., title="TotAlk — Total Alkalinity")
+    Chloride: float = Field(..., title="Chloride — Chloride Concentration")
+    Sulphate: float = Field(..., title="Sulphate — Sulphate Concentration")
+    Hardness: float = Field(..., title="Hardness — Total Water Hardness")
+    TDS: float = Field(..., title="TDS — Total Dissolved Solids")
+    TSS: float = Field(..., title="TSS — Total Suspended Solids")
+    Fluoride: float = Field(..., title="Fluoride — Fluoride Concentration")
+    microbiological_verified: bool = Field(
+        default=False,
+        title="Microbiological Verification — Confirmed Laboratory Verification",
+    )
 
 
 # Load the exact saved objects used by the notebook.
@@ -97,6 +100,11 @@ train_median = train_reference.median()
 train_iqr = (
     train_reference.quantile(0.75) - train_reference.quantile(0.25)
 ).replace(0, np.nan)
+
+# Empirical training-domain bounds. Values outside these bounds are
+# extrapolations and should be reviewed rather than trusted automatically.
+train_min = train_reference.min()
+train_max = train_reference.max()
 
 
 def assess_drinking_suitability(measurements, microbiological_verified=False):
@@ -214,7 +222,94 @@ def predict_water_quality(sample: WaterSample):
             columns=FEATURES,
         )
 
-        # 1. Supervised water-quality classification.
+        # 1. Validate clearly invalid input before running ML models.
+        # Zero is valid for some individual measurements (for example,
+        # a verified zero coliform count), so only an all-zero sample is
+        # rejected by this rule. Negative values and pH outside 0-14 are
+        # also rejected as invalid measurements.
+        invalid_input_reasons = []
+        if all(float(sample_dict[feature]) == 0.0 for feature in FEATURES):
+            invalid_input_reasons.append("ALL_MEASUREMENTS_ZERO")
+        negative_inputs = [
+            feature for feature in FEATURES if float(sample_dict[feature]) < 0
+        ]
+        if negative_inputs:
+            invalid_input_reasons.append("NEGATIVE_MEASUREMENTS")
+        if not 0.0 <= float(sample_dict["pH"]) <= 14.0:
+            invalid_input_reasons.append("PH_OUTSIDE_PHYSICAL_SCALE")
+
+        # Always run the preliminary chemical screen, but do not ask the
+        # classifier to label a clearly invalid sample.
+        drinking_result = assess_drinking_suitability(
+            sample_dict, microbiological_verified
+        )
+
+        outside_training_range = []
+        for feature in FEATURES:
+            value = float(sample_dict[feature])
+            lower = train_min[feature]
+            upper = train_max[feature]
+            if pd.notna(lower) and pd.notna(upper):
+                if value < float(lower) or value > float(upper):
+                    outside_training_range.append({
+                        "parameter": feature,
+                        "value": value,
+                        "training_min": float(lower),
+                        "training_max": float(upper),
+                    })
+
+        if invalid_input_reasons:
+            invalid_messages = {
+                "ALL_MEASUREMENTS_ZERO": (
+                    "All 16 measurements are zero. This is not accepted as a "
+                    "valid water sample; verify the laboratory readings."
+                ),
+                "NEGATIVE_MEASUREMENTS": (
+                    "One or more measurements are negative; verify the input."
+                ),
+                "PH_OUTSIDE_PHYSICAL_SCALE": (
+                    "pH must be within the conventional 0-14 scale."
+                ),
+            }
+            return {
+                "success": True,
+                "water_quality": {
+                    "prediction_status": "INVALID_INPUT",
+                    "predicted_class": None,
+                    "confidence": None,
+                    "class_probabilities": {},
+                    "review_required": True,
+                    "review_reasons": invalid_input_reasons,
+                    "message": (
+                        "Classification was not performed because the input "
+                        "failed basic validation. Correct the measurements and retry."
+                    ),
+                    "model_output_note": (
+                        "No water-quality class was assigned. Invalid input must "
+                        "not be interpreted as Excellent, Good, Poor, Unfit, or Very_poor."
+                    ),
+                },
+                "drinking_suitability": drinking_result,
+                "anomaly_detection": {
+                    "status": "NOT_EVALUATED",
+                    "consensus_votes": None,
+                    "models": {
+                        "isolation_forest": "NOT_EVALUATED",
+                        "local_outlier_factor": "NOT_EVALUATED",
+                        "one_class_svm": "NOT_EVALUATED",
+                    },
+                    "chemical_deviation_explanation": [],
+                },
+                "data_quality": {
+                    "status": "INVALID_INPUT",
+                    "warnings": [invalid_messages[key] for key in invalid_input_reasons],
+                    "invalid_input_reasons": invalid_input_reasons,
+                    "outside_training_range": outside_training_range,
+                },
+                "mongodb_saved": False,
+            }
+
+        # 2. Supervised water-quality classification.
         X_classification = rf_imputer.transform(sample_df)
         predicted_encoded = classification_model.predict(X_classification)[0]
         predicted_class = label_encoder.inverse_transform(
@@ -236,11 +331,6 @@ def predict_water_quality(sample: WaterSample):
         margin = (
             sorted_probabilities[0] - sorted_probabilities[1]
             if len(sorted_probabilities) > 1 else 1.0
-        )
-
-        # 2. Preliminary BIS chemical screening.
-        drinking_result = assess_drinking_suitability(
-            sample_dict, microbiological_verified
         )
 
         # 3. Three-model anomaly consensus.
@@ -277,13 +367,57 @@ def predict_water_quality(sample: WaterSample):
             for name, value in top_deviations.items()
         ]
 
-        # 5. Data-quality warnings retained from the notebook logic.
+        # 5. Input and training-domain checks.
         warnings = []
+
         negative = [feature for feature in FEATURES if sample_dict[feature] < 0]
         if negative:
             warnings.append("Negative measurements: " + ", ".join(negative))
+
         if sample_dict["BOD"] > sample_dict["COD"]:
             warnings.append("BOD is greater than COD; verify input.")
+
+        # pH is expected to be within the conventional 0-14 scale.
+        if not 0 <= sample_dict["pH"] <= 14:
+            warnings.append("pH is outside the conventional 0-14 measurement scale.")
+
+        # A value outside the training range is a model-domain limitation,
+        # not automatically a data-quality error. Keep it visible separately
+        # so legitimate individual zero measurements are not labelled invalid.
+        model_domain_notes = []
+        if outside_training_range:
+            for item in outside_training_range:
+                model_domain_notes.append(
+                    f"{item['parameter']}={item['value']} is outside the observed "
+                    f"training range ({item['training_min']} to {item['training_max']}). "
+                    "This may be a valid laboratory measurement; interpret the model "
+                    "prediction cautiously."
+                )
+
+        # The classifier output is retained for transparency, but an
+        # out-of-domain, anomalous, or chemically unsuitable sample is flagged
+        # for human review. This does not turn an ML class into a safety verdict.
+        review_reasons = []
+        if outside_training_range:
+            review_reasons.append("OUTSIDE_TRAINING_RANGE")
+        if anomaly_status == "ANOMALY":
+            review_reasons.append("ANOMALY_DETECTED")
+        if drinking_result["status"] == "NOT_SUITABLE":
+            review_reasons.append("CHEMICAL_SCREENING_NOT_SUITABLE")
+        if drinking_result["status"] == "INSUFFICIENT_DATA":
+            review_reasons.append("DRINKING_SUITABILITY_INSUFFICIENT_DATA")
+        if negative:
+            review_reasons.append("NEGATIVE_MEASUREMENTS")
+        if sample_dict["BOD"] > sample_dict["COD"]:
+            review_reasons.append("BOD_GREATER_THAN_COD")
+
+        confidence_review = bool(
+            top_probability < 0.60 or margin < 0.15
+        )
+        if confidence_review:
+            review_reasons.append("LOW_MODEL_CONFIDENCE_OR_MARGIN")
+
+        review_required = bool(review_reasons)
 
         return {
             "success": True,
@@ -291,8 +425,13 @@ def predict_water_quality(sample: WaterSample):
                 "predicted_class": str(predicted_class),
                 "confidence": round(top_probability, 4),
                 "class_probabilities": class_probabilities,
-                "review_required": bool(
-                    top_probability < 0.60 or margin < 0.15
+                "review_required": review_required,
+                "review_reasons": review_reasons,
+                "model_output_note": (
+                    "The predicted class is the classifier output, not a drinking-water "
+                    "safety certification. Review is required when input is outside the "
+                    "training range, anomaly detection flags the sample, or chemical "
+                    "screening is unsuitable or incomplete."
                 ),
             },
             "drinking_suitability": drinking_result,
@@ -309,6 +448,17 @@ def predict_water_quality(sample: WaterSample):
             "data_quality": {
                 "status": "REQUIRES_REVIEW" if warnings else "PASS",
                 "warnings": warnings,
+                "outside_training_range": outside_training_range,
+                "model_domain_status": (
+                    "OUTSIDE_TRAINING_RANGE" if outside_training_range else "WITHIN_TRAINING_RANGE"
+                ),
+                "model_domain_note": (
+                    "One or more values are outside the observed training-data range. "
+                    "This is a model extrapolation warning, not proof that the laboratory "
+                    "measurement is invalid." if outside_training_range else
+                    "All values are within the observed training-data range."
+                ),
+                "model_domain_notes": model_domain_notes,
             },
             "mongodb_saved": False,
         }
